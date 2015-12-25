@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:fillViewport="true">
+  <RelativeLayout 
+  		android:layout_width="fill_parent"
+  		android:layout_height="wrap_content" android:background="#ffffff">
+  		
+  		<!--  Header  Starts-->
+  		<LinearLayout android:id="@+id/header"
+  				android:layout_width="fill_parent"
+  				android:layout_height="wrap_content"
+  				android:background="@layout/header_gradient"
+  				android:paddingTop="15dip"
+  				android:paddingBottom="5dip">
+  				<!-- Logo Start-->
+  				<ImageView android:src="@drawable/netmesage"
+  							android:layout_width="wrap_content"
+  							android:layout_height="wrap_content"
+  							android:layout_marginLeft="10dip"/>
+  				<!-- Logo Ends -->
+  		</LinearLayout>
+  		<!--  Header Ends --> 
+  		<!-- Footer Start -->
+  		<LinearLayout android:id="@+id/footer"
+  				android:layout_width="fill_parent"
+  				android:layout_height="40dip"
+  				android:background="@layout/footer_repeat"
+  				android:layout_alignParentBottom="true">
+  		</LinearLayout>
+  		<!-- Footer Ends --> 
+  		
+  		<!-- Linked Form -->
+		<LinearLayout
+		  android:orientation="vertical"
+		  android:layout_width="match_parent"
+		  android:layout_height="wrap_content"
+		  android:padding="10dip"
+		  android:layout_below="@id/header">
+
+		  
+		  <LinearLayout
+		     	android:orientation="horizontal"
+		  		android:layout_width="match_parent"
+		  		android:layout_height="wrap_content">
+		  
+		       <TextView android:layout_width="wrap_content"
+		  		android:layout_height="wrap_content"
+		  		android:textColor="#109edc"
+		  		android:text="用户账号："/>
+		       
+		       <EditText android:id="@+id/username" 
+		  		android:layout_width="fill_parent"
+		  		android:layout_height="wrap_content"
+		  		android:layout_marginTop="5dip"
+		  		android:singleLine="true"
+		  		android:editable="false"
+		 		android:layout_marginBottom="5dip"/>
+		   </LinearLayout>
+		   
+		   <LinearLayout
+		        android:orientation="horizontal"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content">
+		  
+		       <TextView android:layout_width="wrap_content"
+		  		android:layout_height="wrap_content"
+		  		android:textColor="#109edc"
+		  		android:text="连接状态："/>
+		       
+		      <EditText android:id="@+id/state" 
+		  		android:layout_width="fill_parent"
+		  		android:layout_height="wrap_content"
+		  		android:layout_marginTop="5dip"
+		  		android:singleLine="true"
+		  		android:editable="false"
+		  		android:layout_marginBottom="5dip"/>
+		    </LinearLayout>
+		  
+		   <LinearLayout
+		          android:orientation="horizontal"
+		          android:layout_width="match_parent"
+		          android:layout_height="wrap_content">
+		  
+		       <TextView android:layout_width="wrap_content"
+		  		android:layout_height="wrap_content"
+		  		android:textColor="#109edc"
+		  		android:text="连接时间："/>
+		       
+		      <EditText android:id="@+id/linkTime" 
+		  		android:layout_width="fill_parent"
+		  		android:layout_height="wrap_content"
+		  		android:layout_marginTop="5dip"
+		  		android:singleLine="true"
+		  		android:editable="false"
+		  		android:layout_marginBottom="5dip"/>
+		    </LinearLayout>
+		  	  
+		   
+		   <LinearLayout
+		          android:orientation="horizontal"
+		          android:layout_width="match_parent"
+		          android:layout_height="wrap_content">
+		  
+		       <TextView android:layout_width="wrap_content"
+		  		android:layout_height="wrap_content"
+		  		android:textColor="#109edc"
+		  		android:text="您的地址："/>
+		       
+		      <EditText android:id="@+id/YouyIp" 
+		  		android:layout_width="fill_parent"
+		  		android:layout_height="wrap_content"
+		  		android:layout_marginTop="5dip"
+		  		android:singleLine="true"
+		  		android:editable="false"
+		  		android:layout_marginBottom="5dip"/>
+		    </LinearLayout>
+		  
+		    <LinearLayout
+		          android:orientation="horizontal"
+		          android:layout_width="match_parent"
+		          android:layout_height="wrap_content">
+		  
+		       <TextView android:layout_width="wrap_content"
+		  		android:layout_height="wrap_content"
+		  		android:textColor="#109edc"
+		  		android:text="可用流量："/>
+		       
+		      <EditText android:id="@+id/availableCapacity" 
+		  		android:layout_width="fill_parent"
+		  		android:layout_height="wrap_content"
+		  		android:layout_marginTop="5dip"
+		  		android:singleLine="true"
+		  		android:editable="false"
+		  		android:layout_marginBottom="5dip"/>
+		    </LinearLayout>
+		  
+		  <!-- Register Button -->		
+		  <Button android:id="@+id/disconnect" 
+		  		android:layout_width="fill_parent"
+		  		android:layout_height="wrap_content"
+		  		android:layout_marginTop="30dip"
+		  		android:text="断开连接"/>
+
+		   <TextView android:layout_width="fill_parent"
+			  	android:layout_height="wrap_content"
+			  	android:textColor="#372c24"
+			  	android:id="@+id/versinName"
+			  	android:layout_marginTop="50dip"
+			  	android:text="sdfsdfsfsdfsdf" />
+		    
+		</LinearLayout>
+  		<!-- Registration Form Ends -->
+  		
+  		
+  </RelativeLayout>
+</ScrollView>

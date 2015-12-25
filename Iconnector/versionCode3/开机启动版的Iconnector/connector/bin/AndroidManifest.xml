@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.tsu"
+      android:versionCode="2"
+      android:versionName="1.0">
+    <application android:icon="@drawable/connector" android:label="@string/app_name">
+        <activity android:name=".MainActivity"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <receiver android:name = ".BootBroadcastReceiver">
+        	<intent-filter>
+        	    <action android:name="android.intent.action.BOOT_COMPLETED" />
+        	</intent-filter>    
+        </receiver>
+        
+        <activity android:name=".NicMsgAction" 
+            android:label="Iconnector" />
+        <activity android:name=".TestAndroid"
+            android:label="Iconnector" />
+    </application>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"></uses-permission>
+    <uses-permission android:name="android.permission.RESTART_PACKAGES" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"></uses-permission>
+    
+    <uses-sdk android:minSdkVersion="8" />
+
+</manifest> 
