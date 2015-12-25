@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="XBtoupiao"
+  id="myeclipse.1404545203727"
+  context-root="/XBtoupiao"
+  j2ee-spec="5.0"
+  archive="XBtoupiao.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+
