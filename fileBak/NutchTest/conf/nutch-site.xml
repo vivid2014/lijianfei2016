@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+
+<!-- Put site-specific property overrides in this file. -->
+
+<configuration>
+<property>
+	<name>http.agent.name</name>
+	<value>YourAgent Name Here</value>
+</property>
+<property>  
+<name>searcher.dir</name>  
+<value>E:\code\nutch\crawl</value>  
+<description></description>  
+</property> 
+
+<property>
+  <name>searcher.summary.length</name>  
+  <value>20</value>  
+  <description>The total number of terms to display in a hit summary.</description> 
+</property>
+</configuration>

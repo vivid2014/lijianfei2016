@@ -1,0 +1,26 @@
+2014-08-23 23:26:46,640 INFO  crawl.Crawl - crawl started in: crawl
+2014-08-23 23:26:46,646 INFO  crawl.Crawl - rootUrlDir = urls
+2014-08-23 23:26:46,646 INFO  crawl.Crawl - threads = 5
+2014-08-23 23:26:46,646 INFO  crawl.Crawl - depth = 5
+2014-08-23 23:26:46,647 INFO  crawl.Crawl - indexer=lucene
+2014-08-23 23:26:46,647 INFO  crawl.Crawl - topN = 100
+2014-08-23 23:26:46,936 INFO  crawl.Injector - Injector: starting at 2014-08-23 23:26:46
+2014-08-23 23:26:46,936 INFO  crawl.Injector - Injector: crawlDb: crawl/crawldb
+2014-08-23 23:26:46,936 INFO  crawl.Injector - Injector: urlDir: urls
+2014-08-23 23:26:46,971 INFO  crawl.Injector - Injector: Converting injected urls to crawl db entries.
+2014-08-23 23:26:47,231 WARN  mapred.JobClient - Use GenericOptionsParser for parsing the arguments. Applications should implement Tool for the same.
+2014-08-23 23:26:47,393 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2014-08-23 23:26:48,690 INFO  plugin.PluginRepository - Plugins: looking in: C:\Users\lenovo\Workspaces\MyEclipse 8.6\NutchTest\.\plugins
+2014-08-23 23:27:15,238 INFO  crawl.Crawl - crawl started in: crawl
+2014-08-23 23:27:15,239 INFO  crawl.Crawl - rootUrlDir = urls
+2014-08-23 23:27:15,239 INFO  crawl.Crawl - threads = 5
+2014-08-23 23:27:15,239 INFO  crawl.Crawl - depth = 5
+2014-08-23 23:27:15,239 INFO  crawl.Crawl - indexer=lucene
+2014-08-23 23:27:15,239 INFO  crawl.Crawl - topN = 100
+2014-08-23 23:27:15,259 INFO  crawl.Injector - Injector: starting at 2014-08-23 23:27:15
+2014-08-23 23:27:15,259 INFO  crawl.Injector - Injector: crawlDb: crawl/crawldb
+2014-08-23 23:27:15,259 INFO  crawl.Injector - Injector: urlDir: urls
+2014-08-23 23:27:15,282 INFO  crawl.Injector - Injector: Converting injected urls to crawl db entries.
+2014-08-23 23:27:15,312 WARN  mapred.JobClient - Use GenericOptionsParser for parsing the arguments. Applications should implement Tool for the same.
+2014-08-23 23:27:15,437 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2014-08-23 23:27:16,009 INFO  plugin.PluginRepository - Plugins: looking in: C:\Users\lenovo\Workspaces\MyEclipse 8.6\NutchTest\.\plugins

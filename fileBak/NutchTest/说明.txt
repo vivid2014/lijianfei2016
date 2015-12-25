@@ -1,0 +1,22 @@
+lukeall索引文件阅读器打开方法：
+java -jar lukeall-1.0.0.jar
+
+使用方法说明：
+http://my.oschina.net/zengjie/blog/55676
+
+
+
+
+
+
+urls.txt文件中原来的抓取地址：
+http://www.qq.com/
+http://www.1ting.com/
+http://www.9ku.com/
+http://www.xiami.com/
+
+
+
+
+
+

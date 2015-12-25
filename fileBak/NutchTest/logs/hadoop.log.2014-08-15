@@ -1,0 +1,1367 @@
+2014-08-15 15:40:51,407 INFO  crawl.Crawl - crawl started in: crawl
+2014-08-15 15:40:51,410 INFO  crawl.Crawl - rootUrlDir = urls
+2014-08-15 15:40:51,410 INFO  crawl.Crawl - threads = 5
+2014-08-15 15:40:51,410 INFO  crawl.Crawl - depth = 5
+2014-08-15 15:40:51,411 INFO  crawl.Crawl - indexer=lucene
+2014-08-15 15:40:51,411 INFO  crawl.Crawl - topN = 100
+2014-08-15 15:40:51,668 INFO  crawl.Injector - Injector: starting at 2014-08-15 15:40:51
+2014-08-15 15:40:51,668 INFO  crawl.Injector - Injector: crawlDb: crawl/crawldb
+2014-08-15 15:40:51,668 INFO  crawl.Injector - Injector: urlDir: urls
+2014-08-15 15:40:51,705 INFO  crawl.Injector - Injector: Converting injected urls to crawl db entries.
+2014-08-15 15:40:51,846 WARN  mapred.JobClient - Use GenericOptionsParser for parsing the arguments. Applications should implement Tool for the same.
+2014-08-15 15:40:52,228 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2014-08-15 15:40:53,954 INFO  plugin.PluginRepository - Plugins: looking in: C:\Users\lenovo\Workspaces\MyEclipse 8.6\NutchTest\.\plugins
+2014-08-15 15:40:54,318 INFO  plugin.PluginRepository - Plugin Auto-activation mode: [true]
+2014-08-15 15:40:54,318 INFO  plugin.PluginRepository - Registered Plugins:
+2014-08-15 15:40:54,319 INFO  plugin.PluginRepository - 	the nutch core extension points (nutch-extensionpoints)
+2014-08-15 15:40:54,319 INFO  plugin.PluginRepository - 	Basic Query Filter (query-basic)
+2014-08-15 15:40:54,319 INFO  plugin.PluginRepository - 	Basic URL Normalizer (urlnormalizer-basic)
+2014-08-15 15:40:54,319 INFO  plugin.PluginRepository - 	Html Parse Plug-in (parse-html)
+2014-08-15 15:40:54,319 INFO  plugin.PluginRepository - 	Basic Indexing Filter (index-basic)
+2014-08-15 15:40:54,319 INFO  plugin.PluginRepository - 	Site Query Filter (query-site)
+2014-08-15 15:40:54,319 INFO  plugin.PluginRepository - 	Basic Summarizer Plug-in (summary-basic)
+2014-08-15 15:40:54,319 INFO  plugin.PluginRepository - 	HTTP Framework (lib-http)
+2014-08-15 15:40:54,319 INFO  plugin.PluginRepository - 	Text Parse Plug-in (parse-text)
+2014-08-15 15:40:54,319 INFO  plugin.PluginRepository - 	Pass-through URL Normalizer (urlnormalizer-pass)
+2014-08-15 15:40:54,319 INFO  plugin.PluginRepository - 	Regex URL Filter (urlfilter-regex)
+2014-08-15 15:40:54,319 INFO  plugin.PluginRepository - 	Http Protocol Plug-in (protocol-http)
+2014-08-15 15:40:54,319 INFO  plugin.PluginRepository - 	XML Response Writer Plug-in (response-xml)
+2014-08-15 15:40:54,319 INFO  plugin.PluginRepository - 	Regex URL Normalizer (urlnormalizer-regex)
+2014-08-15 15:40:54,319 INFO  plugin.PluginRepository - 	OPIC Scoring Plug-in (scoring-opic)
+2014-08-15 15:40:54,319 INFO  plugin.PluginRepository - 	Tika Parser Plug-in (parse-tika)
+2014-08-15 15:40:54,319 INFO  plugin.PluginRepository - 	CyberNeko HTML Parser (lib-nekohtml)
+2014-08-15 15:40:54,319 INFO  plugin.PluginRepository - 	Anchor Indexing Filter (index-anchor)
+2014-08-15 15:40:54,319 INFO  plugin.PluginRepository - 	JavaScript Parser (parse-js)
+2014-08-15 15:40:54,319 INFO  plugin.PluginRepository - 	URL Query Filter (query-url)
+2014-08-15 15:40:54,319 INFO  plugin.PluginRepository - 	Regex URL Filter Framework (lib-regex-filter)
+2014-08-15 15:40:54,319 INFO  plugin.PluginRepository - 	JSON Response Writer Plug-in (response-json)
+2014-08-15 15:40:54,319 INFO  plugin.PluginRepository - Registered Extension-Points:
+2014-08-15 15:40:54,319 INFO  plugin.PluginRepository - 	Nutch Summarizer (org.apache.nutch.searcher.Summarizer)
+2014-08-15 15:40:54,319 INFO  plugin.PluginRepository - 	Nutch Protocol (org.apache.nutch.protocol.Protocol)
+2014-08-15 15:40:54,319 INFO  plugin.PluginRepository - 	Nutch Segment Merge Filter (org.apache.nutch.segment.SegmentMergeFilter)
+2014-08-15 15:40:54,319 INFO  plugin.PluginRepository - 	Nutch Analysis (org.apache.nutch.analysis.NutchAnalyzer)
+2014-08-15 15:40:54,319 INFO  plugin.PluginRepository - 	Nutch Field Filter (org.apache.nutch.indexer.field.FieldFilter)
+2014-08-15 15:40:54,319 INFO  plugin.PluginRepository - 	HTML Parse Filter (org.apache.nutch.parse.HtmlParseFilter)
+2014-08-15 15:40:54,319 INFO  plugin.PluginRepository - 	Nutch Query Filter (org.apache.nutch.searcher.QueryFilter)
+2014-08-15 15:40:54,319 INFO  plugin.PluginRepository - 	Nutch Search Results Response Writer (org.apache.nutch.searcher.response.ResponseWriter)
+2014-08-15 15:40:54,319 INFO  plugin.PluginRepository - 	Nutch URL Normalizer (org.apache.nutch.net.URLNormalizer)
+2014-08-15 15:40:54,319 INFO  plugin.PluginRepository - 	Nutch URL Filter (org.apache.nutch.net.URLFilter)
+2014-08-15 15:40:54,319 INFO  plugin.PluginRepository - 	Nutch Online Search Results Clustering Plugin (org.apache.nutch.clustering.OnlineClusterer)
+2014-08-15 15:40:54,320 INFO  plugin.PluginRepository - 	Nutch Indexing Filter (org.apache.nutch.indexer.IndexingFilter)
+2014-08-15 15:40:54,320 INFO  plugin.PluginRepository - 	Nutch Content Parser (org.apache.nutch.parse.Parser)
+2014-08-15 15:40:54,320 INFO  plugin.PluginRepository - 	Nutch Scoring (org.apache.nutch.scoring.ScoringFilter)
+2014-08-15 15:40:54,320 INFO  plugin.PluginRepository - 	Ontology Model Loader (org.apache.nutch.ontology.Ontology)
+2014-08-15 15:40:54,504 WARN  regex.RegexURLNormalizer - can't find rules for scope 'inject', using default
+2014-08-15 15:40:55,544 INFO  crawl.Injector - Injector: Merging injected urls into crawl db.
+2014-08-15 15:40:55,726 WARN  mapred.JobClient - Use GenericOptionsParser for parsing the arguments. Applications should implement Tool for the same.
+2014-08-15 15:40:55,899 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2014-08-15 15:40:56,977 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-08-15 15:40:57,618 INFO  crawl.Injector - Injector: finished at 2014-08-15 15:40:57, elapsed: 00:00:05
+2014-08-15 15:40:57,722 INFO  crawl.Generator - Generator: starting at 2014-08-15 15:40:57
+2014-08-15 15:40:57,722 INFO  crawl.Generator - Generator: Selecting best-scoring urls due for fetch.
+2014-08-15 15:40:57,722 INFO  crawl.Generator - Generator: filtering: true
+2014-08-15 15:40:57,722 INFO  crawl.Generator - Generator: normalizing: true
+2014-08-15 15:40:57,722 INFO  crawl.Generator - Generator: topN: 100
+2014-08-15 15:40:57,723 INFO  crawl.Generator - Generator: jobtracker is 'local', generating exactly one partition.
+2014-08-15 15:40:57,842 WARN  mapred.JobClient - Use GenericOptionsParser for parsing the arguments. Applications should implement Tool for the same.
+2014-08-15 15:40:57,999 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2014-08-15 15:40:58,585 INFO  plugin.PluginRepository - Plugins: looking in: C:\Users\lenovo\Workspaces\MyEclipse 8.6\NutchTest\.\plugins
+2014-08-15 15:40:58,726 INFO  plugin.PluginRepository - Plugin Auto-activation mode: [true]
+2014-08-15 15:40:58,726 INFO  plugin.PluginRepository - Registered Plugins:
+2014-08-15 15:40:58,727 INFO  plugin.PluginRepository - 	the nutch core extension points (nutch-extensionpoints)
+2014-08-15 15:40:58,727 INFO  plugin.PluginRepository - 	Basic Query Filter (query-basic)
+2014-08-15 15:40:58,727 INFO  plugin.PluginRepository - 	Basic URL Normalizer (urlnormalizer-basic)
+2014-08-15 15:40:58,727 INFO  plugin.PluginRepository - 	Html Parse Plug-in (parse-html)
+2014-08-15 15:40:58,727 INFO  plugin.PluginRepository - 	Basic Indexing Filter (index-basic)
+2014-08-15 15:40:58,727 INFO  plugin.PluginRepository - 	Site Query Filter (query-site)
+2014-08-15 15:40:58,727 INFO  plugin.PluginRepository - 	Basic Summarizer Plug-in (summary-basic)
+2014-08-15 15:40:58,727 INFO  plugin.PluginRepository - 	HTTP Framework (lib-http)
+2014-08-15 15:40:58,727 INFO  plugin.PluginRepository - 	Text Parse Plug-in (parse-text)
+2014-08-15 15:40:58,727 INFO  plugin.PluginRepository - 	Pass-through URL Normalizer (urlnormalizer-pass)
+2014-08-15 15:40:58,727 INFO  plugin.PluginRepository - 	Regex URL Filter (urlfilter-regex)
+2014-08-15 15:40:58,727 INFO  plugin.PluginRepository - 	Http Protocol Plug-in (protocol-http)
+2014-08-15 15:40:58,727 INFO  plugin.PluginRepository - 	XML Response Writer Plug-in (response-xml)
+2014-08-15 15:40:58,727 INFO  plugin.PluginRepository - 	Regex URL Normalizer (urlnormalizer-regex)
+2014-08-15 15:40:58,727 INFO  plugin.PluginRepository - 	OPIC Scoring Plug-in (scoring-opic)
+2014-08-15 15:40:58,727 INFO  plugin.PluginRepository - 	Tika Parser Plug-in (parse-tika)
+2014-08-15 15:40:58,727 INFO  plugin.PluginRepository - 	CyberNeko HTML Parser (lib-nekohtml)
+2014-08-15 15:40:58,727 INFO  plugin.PluginRepository - 	Anchor Indexing Filter (index-anchor)
+2014-08-15 15:40:58,727 INFO  plugin.PluginRepository - 	JavaScript Parser (parse-js)
+2014-08-15 15:40:58,727 INFO  plugin.PluginRepository - 	URL Query Filter (query-url)
+2014-08-15 15:40:58,727 INFO  plugin.PluginRepository - 	Regex URL Filter Framework (lib-regex-filter)
+2014-08-15 15:40:58,727 INFO  plugin.PluginRepository - 	JSON Response Writer Plug-in (response-json)
+2014-08-15 15:40:58,727 INFO  plugin.PluginRepository - Registered Extension-Points:
+2014-08-15 15:40:58,727 INFO  plugin.PluginRepository - 	Nutch Summarizer (org.apache.nutch.searcher.Summarizer)
+2014-08-15 15:40:58,727 INFO  plugin.PluginRepository - 	Nutch Protocol (org.apache.nutch.protocol.Protocol)
+2014-08-15 15:40:58,727 INFO  plugin.PluginRepository - 	Nutch Segment Merge Filter (org.apache.nutch.segment.SegmentMergeFilter)
+2014-08-15 15:40:58,727 INFO  plugin.PluginRepository - 	Nutch Analysis (org.apache.nutch.analysis.NutchAnalyzer)
+2014-08-15 15:40:58,727 INFO  plugin.PluginRepository - 	Nutch Field Filter (org.apache.nutch.indexer.field.FieldFilter)
+2014-08-15 15:40:58,727 INFO  plugin.PluginRepository - 	HTML Parse Filter (org.apache.nutch.parse.HtmlParseFilter)
+2014-08-15 15:40:58,727 INFO  plugin.PluginRepository - 	Nutch Query Filter (org.apache.nutch.searcher.QueryFilter)
+2014-08-15 15:40:58,727 INFO  plugin.PluginRepository - 	Nutch Search Results Response Writer (org.apache.nutch.searcher.response.ResponseWriter)
+2014-08-15 15:40:58,727 INFO  plugin.PluginRepository - 	Nutch URL Normalizer (org.apache.nutch.net.URLNormalizer)
+2014-08-15 15:40:58,727 INFO  plugin.PluginRepository - 	Nutch URL Filter (org.apache.nutch.net.URLFilter)
+2014-08-15 15:40:58,728 INFO  plugin.PluginRepository - 	Nutch Online Search Results Clustering Plugin (org.apache.nutch.clustering.OnlineClusterer)
+2014-08-15 15:40:58,728 INFO  plugin.PluginRepository - 	Nutch Indexing Filter (org.apache.nutch.indexer.IndexingFilter)
+2014-08-15 15:40:58,728 INFO  plugin.PluginRepository - 	Nutch Content Parser (org.apache.nutch.parse.Parser)
+2014-08-15 15:40:58,728 INFO  plugin.PluginRepository - 	Nutch Scoring (org.apache.nutch.scoring.ScoringFilter)
+2014-08-15 15:40:58,728 INFO  plugin.PluginRepository - 	Ontology Model Loader (org.apache.nutch.ontology.Ontology)
+2014-08-15 15:40:58,885 INFO  crawl.FetchScheduleFactory - Using FetchSchedule impl: org.apache.nutch.crawl.DefaultFetchSchedule
+2014-08-15 15:40:58,885 INFO  crawl.AbstractFetchSchedule - defaultInterval=2592000
+2014-08-15 15:40:58,885 INFO  crawl.AbstractFetchSchedule - maxInterval=7776000
+2014-08-15 15:40:58,932 WARN  regex.RegexURLNormalizer - can't find rules for scope 'partition', using default
+2014-08-15 15:40:59,021 INFO  plugin.PluginRepository - Plugins: looking in: C:\Users\lenovo\Workspaces\MyEclipse 8.6\NutchTest\.\plugins
+2014-08-15 15:40:59,133 INFO  plugin.PluginRepository - Plugin Auto-activation mode: [true]
+2014-08-15 15:40:59,133 INFO  plugin.PluginRepository - Registered Plugins:
+2014-08-15 15:40:59,133 INFO  plugin.PluginRepository - 	the nutch core extension points (nutch-extensionpoints)
+2014-08-15 15:40:59,133 INFO  plugin.PluginRepository - 	Basic Query Filter (query-basic)
+2014-08-15 15:40:59,133 INFO  plugin.PluginRepository - 	Basic URL Normalizer (urlnormalizer-basic)
+2014-08-15 15:40:59,133 INFO  plugin.PluginRepository - 	Html Parse Plug-in (parse-html)
+2014-08-15 15:40:59,133 INFO  plugin.PluginRepository - 	Basic Indexing Filter (index-basic)
+2014-08-15 15:40:59,133 INFO  plugin.PluginRepository - 	Site Query Filter (query-site)
+2014-08-15 15:40:59,133 INFO  plugin.PluginRepository - 	Basic Summarizer Plug-in (summary-basic)
+2014-08-15 15:40:59,133 INFO  plugin.PluginRepository - 	HTTP Framework (lib-http)
+2014-08-15 15:40:59,133 INFO  plugin.PluginRepository - 	Text Parse Plug-in (parse-text)
+2014-08-15 15:40:59,133 INFO  plugin.PluginRepository - 	Pass-through URL Normalizer (urlnormalizer-pass)
+2014-08-15 15:40:59,133 INFO  plugin.PluginRepository - 	Regex URL Filter (urlfilter-regex)
+2014-08-15 15:40:59,133 INFO  plugin.PluginRepository - 	Http Protocol Plug-in (protocol-http)
+2014-08-15 15:40:59,133 INFO  plugin.PluginRepository - 	XML Response Writer Plug-in (response-xml)
+2014-08-15 15:40:59,133 INFO  plugin.PluginRepository - 	Regex URL Normalizer (urlnormalizer-regex)
+2014-08-15 15:40:59,133 INFO  plugin.PluginRepository - 	OPIC Scoring Plug-in (scoring-opic)
+2014-08-15 15:40:59,133 INFO  plugin.PluginRepository - 	Tika Parser Plug-in (parse-tika)
+2014-08-15 15:40:59,133 INFO  plugin.PluginRepository - 	CyberNeko HTML Parser (lib-nekohtml)
+2014-08-15 15:40:59,133 INFO  plugin.PluginRepository - 	Anchor Indexing Filter (index-anchor)
+2014-08-15 15:40:59,134 INFO  plugin.PluginRepository - 	JavaScript Parser (parse-js)
+2014-08-15 15:40:59,134 INFO  plugin.PluginRepository - 	URL Query Filter (query-url)
+2014-08-15 15:40:59,134 INFO  plugin.PluginRepository - 	Regex URL Filter Framework (lib-regex-filter)
+2014-08-15 15:40:59,134 INFO  plugin.PluginRepository - 	JSON Response Writer Plug-in (response-json)
+2014-08-15 15:40:59,134 INFO  plugin.PluginRepository - Registered Extension-Points:
+2014-08-15 15:40:59,134 INFO  plugin.PluginRepository - 	Nutch Summarizer (org.apache.nutch.searcher.Summarizer)
+2014-08-15 15:40:59,134 INFO  plugin.PluginRepository - 	Nutch Protocol (org.apache.nutch.protocol.Protocol)
+2014-08-15 15:40:59,134 INFO  plugin.PluginRepository - 	Nutch Segment Merge Filter (org.apache.nutch.segment.SegmentMergeFilter)
+2014-08-15 15:40:59,134 INFO  plugin.PluginRepository - 	Nutch Analysis (org.apache.nutch.analysis.NutchAnalyzer)
+2014-08-15 15:40:59,134 INFO  plugin.PluginRepository - 	Nutch Field Filter (org.apache.nutch.indexer.field.FieldFilter)
+2014-08-15 15:40:59,134 INFO  plugin.PluginRepository - 	HTML Parse Filter (org.apache.nutch.parse.HtmlParseFilter)
+2014-08-15 15:40:59,134 INFO  plugin.PluginRepository - 	Nutch Query Filter (org.apache.nutch.searcher.QueryFilter)
+2014-08-15 15:40:59,134 INFO  plugin.PluginRepository - 	Nutch Search Results Response Writer (org.apache.nutch.searcher.response.ResponseWriter)
+2014-08-15 15:40:59,134 INFO  plugin.PluginRepository - 	Nutch URL Normalizer (org.apache.nutch.net.URLNormalizer)
+2014-08-15 15:40:59,134 INFO  plugin.PluginRepository - 	Nutch URL Filter (org.apache.nutch.net.URLFilter)
+2014-08-15 15:40:59,134 INFO  plugin.PluginRepository - 	Nutch Online Search Results Clustering Plugin (org.apache.nutch.clustering.OnlineClusterer)
+2014-08-15 15:40:59,134 INFO  plugin.PluginRepository - 	Nutch Indexing Filter (org.apache.nutch.indexer.IndexingFilter)
+2014-08-15 15:40:59,134 INFO  plugin.PluginRepository - 	Nutch Content Parser (org.apache.nutch.parse.Parser)
+2014-08-15 15:40:59,134 INFO  plugin.PluginRepository - 	Nutch Scoring (org.apache.nutch.scoring.ScoringFilter)
+2014-08-15 15:40:59,134 INFO  plugin.PluginRepository - 	Ontology Model Loader (org.apache.nutch.ontology.Ontology)
+2014-08-15 15:40:59,156 INFO  crawl.FetchScheduleFactory - Using FetchSchedule impl: org.apache.nutch.crawl.DefaultFetchSchedule
+2014-08-15 15:40:59,156 INFO  crawl.AbstractFetchSchedule - defaultInterval=2592000
+2014-08-15 15:40:59,156 INFO  crawl.AbstractFetchSchedule - maxInterval=7776000
+2014-08-15 15:40:59,171 WARN  regex.RegexURLNormalizer - can't find rules for scope 'generate_host_count', using default
+2014-08-15 15:40:59,432 INFO  crawl.Generator - Generator: Partitioning selected urls for politeness.
+2014-08-15 15:41:00,433 INFO  crawl.Generator - Generator: segment: crawl/segments/20140815154100
+2014-08-15 15:41:00,488 WARN  mapred.JobClient - Use GenericOptionsParser for parsing the arguments. Applications should implement Tool for the same.
+2014-08-15 15:41:00,636 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2014-08-15 15:41:01,467 INFO  plugin.PluginRepository - Plugins: looking in: C:\Users\lenovo\Workspaces\MyEclipse 8.6\NutchTest\.\plugins
+2014-08-15 15:41:01,564 INFO  plugin.PluginRepository - Plugin Auto-activation mode: [true]
+2014-08-15 15:41:01,564 INFO  plugin.PluginRepository - Registered Plugins:
+2014-08-15 15:41:01,564 INFO  plugin.PluginRepository - 	the nutch core extension points (nutch-extensionpoints)
+2014-08-15 15:41:01,564 INFO  plugin.PluginRepository - 	Basic Query Filter (query-basic)
+2014-08-15 15:41:01,564 INFO  plugin.PluginRepository - 	Basic URL Normalizer (urlnormalizer-basic)
+2014-08-15 15:41:01,564 INFO  plugin.PluginRepository - 	Html Parse Plug-in (parse-html)
+2014-08-15 15:41:01,564 INFO  plugin.PluginRepository - 	Basic Indexing Filter (index-basic)
+2014-08-15 15:41:01,564 INFO  plugin.PluginRepository - 	Site Query Filter (query-site)
+2014-08-15 15:41:01,564 INFO  plugin.PluginRepository - 	Basic Summarizer Plug-in (summary-basic)
+2014-08-15 15:41:01,564 INFO  plugin.PluginRepository - 	HTTP Framework (lib-http)
+2014-08-15 15:41:01,564 INFO  plugin.PluginRepository - 	Text Parse Plug-in (parse-text)
+2014-08-15 15:41:01,564 INFO  plugin.PluginRepository - 	Pass-through URL Normalizer (urlnormalizer-pass)
+2014-08-15 15:41:01,564 INFO  plugin.PluginRepository - 	Regex URL Filter (urlfilter-regex)
+2014-08-15 15:41:01,564 INFO  plugin.PluginRepository - 	Http Protocol Plug-in (protocol-http)
+2014-08-15 15:41:01,564 INFO  plugin.PluginRepository - 	XML Response Writer Plug-in (response-xml)
+2014-08-15 15:41:01,564 INFO  plugin.PluginRepository - 	Regex URL Normalizer (urlnormalizer-regex)
+2014-08-15 15:41:01,564 INFO  plugin.PluginRepository - 	OPIC Scoring Plug-in (scoring-opic)
+2014-08-15 15:41:01,565 INFO  plugin.PluginRepository - 	Tika Parser Plug-in (parse-tika)
+2014-08-15 15:41:01,565 INFO  plugin.PluginRepository - 	CyberNeko HTML Parser (lib-nekohtml)
+2014-08-15 15:41:01,565 INFO  plugin.PluginRepository - 	Anchor Indexing Filter (index-anchor)
+2014-08-15 15:41:01,565 INFO  plugin.PluginRepository - 	JavaScript Parser (parse-js)
+2014-08-15 15:41:01,565 INFO  plugin.PluginRepository - 	URL Query Filter (query-url)
+2014-08-15 15:41:01,565 INFO  plugin.PluginRepository - 	Regex URL Filter Framework (lib-regex-filter)
+2014-08-15 15:41:01,565 INFO  plugin.PluginRepository - 	JSON Response Writer Plug-in (response-json)
+2014-08-15 15:41:01,565 INFO  plugin.PluginRepository - Registered Extension-Points:
+2014-08-15 15:41:01,565 INFO  plugin.PluginRepository - 	Nutch Summarizer (org.apache.nutch.searcher.Summarizer)
+2014-08-15 15:41:01,565 INFO  plugin.PluginRepository - 	Nutch Protocol (org.apache.nutch.protocol.Protocol)
+2014-08-15 15:41:01,565 INFO  plugin.PluginRepository - 	Nutch Segment Merge Filter (org.apache.nutch.segment.SegmentMergeFilter)
+2014-08-15 15:41:01,565 INFO  plugin.PluginRepository - 	Nutch Analysis (org.apache.nutch.analysis.NutchAnalyzer)
+2014-08-15 15:41:01,565 INFO  plugin.PluginRepository - 	Nutch Field Filter (org.apache.nutch.indexer.field.FieldFilter)
+2014-08-15 15:41:01,565 INFO  plugin.PluginRepository - 	HTML Parse Filter (org.apache.nutch.parse.HtmlParseFilter)
+2014-08-15 15:41:01,565 INFO  plugin.PluginRepository - 	Nutch Query Filter (org.apache.nutch.searcher.QueryFilter)
+2014-08-15 15:41:01,565 INFO  plugin.PluginRepository - 	Nutch Search Results Response Writer (org.apache.nutch.searcher.response.ResponseWriter)
+2014-08-15 15:41:01,565 INFO  plugin.PluginRepository - 	Nutch URL Normalizer (org.apache.nutch.net.URLNormalizer)
+2014-08-15 15:41:01,565 INFO  plugin.PluginRepository - 	Nutch URL Filter (org.apache.nutch.net.URLFilter)
+2014-08-15 15:41:01,565 INFO  plugin.PluginRepository - 	Nutch Online Search Results Clustering Plugin (org.apache.nutch.clustering.OnlineClusterer)
+2014-08-15 15:41:01,565 INFO  plugin.PluginRepository - 	Nutch Indexing Filter (org.apache.nutch.indexer.IndexingFilter)
+2014-08-15 15:41:01,565 INFO  plugin.PluginRepository - 	Nutch Content Parser (org.apache.nutch.parse.Parser)
+2014-08-15 15:41:01,565 INFO  plugin.PluginRepository - 	Nutch Scoring (org.apache.nutch.scoring.ScoringFilter)
+2014-08-15 15:41:01,565 INFO  plugin.PluginRepository - 	Ontology Model Loader (org.apache.nutch.ontology.Ontology)
+2014-08-15 15:41:01,579 WARN  regex.RegexURLNormalizer - can't find rules for scope 'partition', using default
+2014-08-15 15:41:02,344 INFO  crawl.Generator - Generator: finished at 2014-08-15 15:41:02, elapsed: 00:00:04
+2014-08-15 15:41:02,344 WARN  fetcher.Fetcher - Fetcher: Your 'http.agent.name' value should be listed first in 'http.robots.agents' property.
+2014-08-15 15:41:02,344 INFO  fetcher.Fetcher - Fetcher: starting at 2014-08-15 15:41:02
+2014-08-15 15:41:02,345 INFO  fetcher.Fetcher - Fetcher: segment: crawl/segments/20140815154100
+2014-08-15 15:41:02,442 WARN  mapred.JobClient - Use GenericOptionsParser for parsing the arguments. Applications should implement Tool for the same.
+2014-08-15 15:41:02,632 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2014-08-15 15:41:03,825 INFO  fetcher.Fetcher - Fetcher: threads: 5
+2014-08-15 15:41:03,882 INFO  plugin.PluginRepository - Plugins: looking in: C:\Users\lenovo\Workspaces\MyEclipse 8.6\NutchTest\.\plugins
+2014-08-15 15:41:03,915 INFO  fetcher.Fetcher - QueueFeeder finished: total 2 records + hit by time limit :0
+2014-08-15 15:41:04,041 INFO  plugin.PluginRepository - Plugin Auto-activation mode: [true]
+2014-08-15 15:41:04,041 INFO  plugin.PluginRepository - Registered Plugins:
+2014-08-15 15:41:04,041 INFO  plugin.PluginRepository - 	the nutch core extension points (nutch-extensionpoints)
+2014-08-15 15:41:04,041 INFO  plugin.PluginRepository - 	Basic Query Filter (query-basic)
+2014-08-15 15:41:04,041 INFO  plugin.PluginRepository - 	Basic URL Normalizer (urlnormalizer-basic)
+2014-08-15 15:41:04,041 INFO  plugin.PluginRepository - 	Html Parse Plug-in (parse-html)
+2014-08-15 15:41:04,041 INFO  plugin.PluginRepository - 	Basic Indexing Filter (index-basic)
+2014-08-15 15:41:04,041 INFO  plugin.PluginRepository - 	Site Query Filter (query-site)
+2014-08-15 15:41:04,041 INFO  plugin.PluginRepository - 	Basic Summarizer Plug-in (summary-basic)
+2014-08-15 15:41:04,041 INFO  plugin.PluginRepository - 	HTTP Framework (lib-http)
+2014-08-15 15:41:04,041 INFO  plugin.PluginRepository - 	Text Parse Plug-in (parse-text)
+2014-08-15 15:41:04,041 INFO  plugin.PluginRepository - 	Pass-through URL Normalizer (urlnormalizer-pass)
+2014-08-15 15:41:04,041 INFO  plugin.PluginRepository - 	Regex URL Filter (urlfilter-regex)
+2014-08-15 15:41:04,041 INFO  plugin.PluginRepository - 	Http Protocol Plug-in (protocol-http)
+2014-08-15 15:41:04,041 INFO  plugin.PluginRepository - 	XML Response Writer Plug-in (response-xml)
+2014-08-15 15:41:04,041 INFO  plugin.PluginRepository - 	Regex URL Normalizer (urlnormalizer-regex)
+2014-08-15 15:41:04,041 INFO  plugin.PluginRepository - 	OPIC Scoring Plug-in (scoring-opic)
+2014-08-15 15:41:04,041 INFO  plugin.PluginRepository - 	Tika Parser Plug-in (parse-tika)
+2014-08-15 15:41:04,041 INFO  plugin.PluginRepository - 	CyberNeko HTML Parser (lib-nekohtml)
+2014-08-15 15:41:04,041 INFO  plugin.PluginRepository - 	Anchor Indexing Filter (index-anchor)
+2014-08-15 15:41:04,041 INFO  plugin.PluginRepository - 	JavaScript Parser (parse-js)
+2014-08-15 15:41:04,041 INFO  plugin.PluginRepository - 	URL Query Filter (query-url)
+2014-08-15 15:41:04,041 INFO  plugin.PluginRepository - 	Regex URL Filter Framework (lib-regex-filter)
+2014-08-15 15:41:04,041 INFO  plugin.PluginRepository - 	JSON Response Writer Plug-in (response-json)
+2014-08-15 15:41:04,041 INFO  plugin.PluginRepository - Registered Extension-Points:
+2014-08-15 15:41:04,041 INFO  plugin.PluginRepository - 	Nutch Summarizer (org.apache.nutch.searcher.Summarizer)
+2014-08-15 15:41:04,041 INFO  plugin.PluginRepository - 	Nutch Protocol (org.apache.nutch.protocol.Protocol)
+2014-08-15 15:41:04,041 INFO  plugin.PluginRepository - 	Nutch Segment Merge Filter (org.apache.nutch.segment.SegmentMergeFilter)
+2014-08-15 15:41:04,042 INFO  plugin.PluginRepository - 	Nutch Analysis (org.apache.nutch.analysis.NutchAnalyzer)
+2014-08-15 15:41:04,042 INFO  plugin.PluginRepository - 	Nutch Field Filter (org.apache.nutch.indexer.field.FieldFilter)
+2014-08-15 15:41:04,042 INFO  plugin.PluginRepository - 	HTML Parse Filter (org.apache.nutch.parse.HtmlParseFilter)
+2014-08-15 15:41:04,042 INFO  plugin.PluginRepository - 	Nutch Query Filter (org.apache.nutch.searcher.QueryFilter)
+2014-08-15 15:41:04,042 INFO  plugin.PluginRepository - 	Nutch Search Results Response Writer (org.apache.nutch.searcher.response.ResponseWriter)
+2014-08-15 15:41:04,042 INFO  plugin.PluginRepository - 	Nutch URL Normalizer (org.apache.nutch.net.URLNormalizer)
+2014-08-15 15:41:04,042 INFO  plugin.PluginRepository - 	Nutch URL Filter (org.apache.nutch.net.URLFilter)
+2014-08-15 15:41:04,042 INFO  plugin.PluginRepository - 	Nutch Online Search Results Clustering Plugin (org.apache.nutch.clustering.OnlineClusterer)
+2014-08-15 15:41:04,042 INFO  plugin.PluginRepository - 	Nutch Indexing Filter (org.apache.nutch.indexer.IndexingFilter)
+2014-08-15 15:41:04,042 INFO  plugin.PluginRepository - 	Nutch Content Parser (org.apache.nutch.parse.Parser)
+2014-08-15 15:41:04,042 INFO  plugin.PluginRepository - 	Nutch Scoring (org.apache.nutch.scoring.ScoringFilter)
+2014-08-15 15:41:04,042 INFO  plugin.PluginRepository - 	Ontology Model Loader (org.apache.nutch.ontology.Ontology)
+2014-08-15 15:41:04,632 INFO  fetcher.Fetcher - fetching http://www.qq.com/
+2014-08-15 15:41:04,695 INFO  http.Http - http.proxy.host = null
+2014-08-15 15:41:04,695 INFO  http.Http - http.proxy.port = 8080
+2014-08-15 15:41:04,695 INFO  http.Http - http.timeout = 10000
+2014-08-15 15:41:04,695 INFO  http.Http - http.content.limit = 65536
+2014-08-15 15:41:04,695 INFO  http.Http - http.agent = YourAgent Name Here/Nutch-1.2
+2014-08-15 15:41:04,695 INFO  http.Http - http.accept.language = en-us,en-gb,en;q=0.7,*;q=0.3
+2014-08-15 15:41:04,695 INFO  http.Http - protocol.plugin.check.blocking = false
+2014-08-15 15:41:04,695 INFO  http.Http - protocol.plugin.check.robots = false
+2014-08-15 15:41:05,633 INFO  fetcher.Fetcher - -activeThreads=5, spinWaiting=4, fetchQueues.totalSize=1
+2014-08-15 15:41:05,633 INFO  fetcher.Fetcher - * queue: http://www.qq.com
+2014-08-15 15:41:05,633 INFO  fetcher.Fetcher -   maxThreads    = 1
+2014-08-15 15:41:05,633 INFO  fetcher.Fetcher -   inProgress    = 0
+2014-08-15 15:41:05,633 INFO  fetcher.Fetcher -   crawlDelay    = 1000
+2014-08-15 15:41:05,633 INFO  fetcher.Fetcher -   minCrawlDelay = 0
+2014-08-15 15:41:05,633 INFO  fetcher.Fetcher -   nextFetchTime = 1408088466121
+2014-08-15 15:41:05,633 INFO  fetcher.Fetcher -   now           = 1408088465633
+2014-08-15 15:41:05,633 INFO  fetcher.Fetcher -   0. http://www.qq.com/pad/
+2014-08-15 15:41:05,656 INFO  crawl.SignatureFactory - Using Signature impl: org.apache.nutch.crawl.MD5Signature
+2014-08-15 15:41:06,133 INFO  fetcher.Fetcher - -finishing thread FetcherThread, activeThreads=4
+2014-08-15 15:41:06,133 INFO  fetcher.Fetcher - fetching http://www.qq.com/pad/
+2014-08-15 15:41:06,134 INFO  fetcher.Fetcher - -finishing thread FetcherThread, activeThreads=3
+2014-08-15 15:41:06,134 INFO  fetcher.Fetcher - -finishing thread FetcherThread, activeThreads=2
+2014-08-15 15:41:06,194 INFO  fetcher.Fetcher - -finishing thread FetcherThread, activeThreads=1
+2014-08-15 15:41:06,260 INFO  fetcher.Fetcher - -finishing thread FetcherThread, activeThreads=0
+2014-08-15 15:41:06,633 INFO  fetcher.Fetcher - -activeThreads=0, spinWaiting=0, fetchQueues.totalSize=0
+2014-08-15 15:41:06,633 INFO  fetcher.Fetcher - -activeThreads=0
+2014-08-15 15:41:07,104 INFO  plugin.PluginRepository - Plugins: looking in: C:\Users\lenovo\Workspaces\MyEclipse 8.6\NutchTest\.\plugins
+2014-08-15 15:41:07,213 INFO  plugin.PluginRepository - Plugin Auto-activation mode: [true]
+2014-08-15 15:41:07,213 INFO  plugin.PluginRepository - Registered Plugins:
+2014-08-15 15:41:07,213 INFO  plugin.PluginRepository - 	the nutch core extension points (nutch-extensionpoints)
+2014-08-15 15:41:07,213 INFO  plugin.PluginRepository - 	Basic Query Filter (query-basic)
+2014-08-15 15:41:07,213 INFO  plugin.PluginRepository - 	Basic URL Normalizer (urlnormalizer-basic)
+2014-08-15 15:41:07,213 INFO  plugin.PluginRepository - 	Html Parse Plug-in (parse-html)
+2014-08-15 15:41:07,213 INFO  plugin.PluginRepository - 	Basic Indexing Filter (index-basic)
+2014-08-15 15:41:07,213 INFO  plugin.PluginRepository - 	Site Query Filter (query-site)
+2014-08-15 15:41:07,213 INFO  plugin.PluginRepository - 	Basic Summarizer Plug-in (summary-basic)
+2014-08-15 15:41:07,213 INFO  plugin.PluginRepository - 	HTTP Framework (lib-http)
+2014-08-15 15:41:07,213 INFO  plugin.PluginRepository - 	Text Parse Plug-in (parse-text)
+2014-08-15 15:41:07,213 INFO  plugin.PluginRepository - 	Pass-through URL Normalizer (urlnormalizer-pass)
+2014-08-15 15:41:07,213 INFO  plugin.PluginRepository - 	Regex URL Filter (urlfilter-regex)
+2014-08-15 15:41:07,213 INFO  plugin.PluginRepository - 	Http Protocol Plug-in (protocol-http)
+2014-08-15 15:41:07,213 INFO  plugin.PluginRepository - 	XML Response Writer Plug-in (response-xml)
+2014-08-15 15:41:07,213 INFO  plugin.PluginRepository - 	Regex URL Normalizer (urlnormalizer-regex)
+2014-08-15 15:41:07,213 INFO  plugin.PluginRepository - 	OPIC Scoring Plug-in (scoring-opic)
+2014-08-15 15:41:07,213 INFO  plugin.PluginRepository - 	Tika Parser Plug-in (parse-tika)
+2014-08-15 15:41:07,213 INFO  plugin.PluginRepository - 	CyberNeko HTML Parser (lib-nekohtml)
+2014-08-15 15:41:07,213 INFO  plugin.PluginRepository - 	Anchor Indexing Filter (index-anchor)
+2014-08-15 15:41:07,213 INFO  plugin.PluginRepository - 	JavaScript Parser (parse-js)
+2014-08-15 15:41:07,213 INFO  plugin.PluginRepository - 	URL Query Filter (query-url)
+2014-08-15 15:41:07,213 INFO  plugin.PluginRepository - 	Regex URL Filter Framework (lib-regex-filter)
+2014-08-15 15:41:07,213 INFO  plugin.PluginRepository - 	JSON Response Writer Plug-in (response-json)
+2014-08-15 15:41:07,214 INFO  plugin.PluginRepository - Registered Extension-Points:
+2014-08-15 15:41:07,214 INFO  plugin.PluginRepository - 	Nutch Summarizer (org.apache.nutch.searcher.Summarizer)
+2014-08-15 15:41:07,214 INFO  plugin.PluginRepository - 	Nutch Protocol (org.apache.nutch.protocol.Protocol)
+2014-08-15 15:41:07,214 INFO  plugin.PluginRepository - 	Nutch Segment Merge Filter (org.apache.nutch.segment.SegmentMergeFilter)
+2014-08-15 15:41:07,214 INFO  plugin.PluginRepository - 	Nutch Analysis (org.apache.nutch.analysis.NutchAnalyzer)
+2014-08-15 15:41:07,214 INFO  plugin.PluginRepository - 	Nutch Field Filter (org.apache.nutch.indexer.field.FieldFilter)
+2014-08-15 15:41:07,214 INFO  plugin.PluginRepository - 	HTML Parse Filter (org.apache.nutch.parse.HtmlParseFilter)
+2014-08-15 15:41:07,214 INFO  plugin.PluginRepository - 	Nutch Query Filter (org.apache.nutch.searcher.QueryFilter)
+2014-08-15 15:41:07,214 INFO  plugin.PluginRepository - 	Nutch Search Results Response Writer (org.apache.nutch.searcher.response.ResponseWriter)
+2014-08-15 15:41:07,214 INFO  plugin.PluginRepository - 	Nutch URL Normalizer (org.apache.nutch.net.URLNormalizer)
+2014-08-15 15:41:07,214 INFO  plugin.PluginRepository - 	Nutch URL Filter (org.apache.nutch.net.URLFilter)
+2014-08-15 15:41:07,214 INFO  plugin.PluginRepository - 	Nutch Online Search Results Clustering Plugin (org.apache.nutch.clustering.OnlineClusterer)
+2014-08-15 15:41:07,214 INFO  plugin.PluginRepository - 	Nutch Indexing Filter (org.apache.nutch.indexer.IndexingFilter)
+2014-08-15 15:41:07,214 INFO  plugin.PluginRepository - 	Nutch Content Parser (org.apache.nutch.parse.Parser)
+2014-08-15 15:41:07,214 INFO  plugin.PluginRepository - 	Nutch Scoring (org.apache.nutch.scoring.ScoringFilter)
+2014-08-15 15:41:07,214 INFO  plugin.PluginRepository - 	Ontology Model Loader (org.apache.nutch.ontology.Ontology)
+2014-08-15 15:41:07,836 WARN  regex.RegexURLNormalizer - can't find rules for scope 'outlink', using default
+2014-08-15 15:41:08,155 INFO  fetcher.Fetcher - Fetcher: finished at 2014-08-15 15:41:08, elapsed: 00:00:05
+2014-08-15 15:41:08,255 INFO  crawl.CrawlDb - CrawlDb update: starting at 2014-08-15 15:41:08
+2014-08-15 15:41:08,255 INFO  crawl.CrawlDb - CrawlDb update: db: crawl/crawldb
+2014-08-15 15:41:08,255 INFO  crawl.CrawlDb - CrawlDb update: segments: [crawl/segments/20140815154100]
+2014-08-15 15:41:08,255 INFO  crawl.CrawlDb - CrawlDb update: additions allowed: true
+2014-08-15 15:41:08,255 INFO  crawl.CrawlDb - CrawlDb update: URL normalizing: true
+2014-08-15 15:41:08,255 INFO  crawl.CrawlDb - CrawlDb update: URL filtering: true
+2014-08-15 15:41:08,258 INFO  crawl.CrawlDb - CrawlDb update: Merging segment data into db.
+2014-08-15 15:41:08,261 WARN  mapred.JobClient - Use GenericOptionsParser for parsing the arguments. Applications should implement Tool for the same.
+2014-08-15 15:41:08,419 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2014-08-15 15:41:09,054 INFO  plugin.PluginRepository - Plugins: looking in: C:\Users\lenovo\Workspaces\MyEclipse 8.6\NutchTest\.\plugins
+2014-08-15 15:41:09,150 INFO  plugin.PluginRepository - Plugin Auto-activation mode: [true]
+2014-08-15 15:41:09,150 INFO  plugin.PluginRepository - Registered Plugins:
+2014-08-15 15:41:09,150 INFO  plugin.PluginRepository - 	the nutch core extension points (nutch-extensionpoints)
+2014-08-15 15:41:09,150 INFO  plugin.PluginRepository - 	Basic Query Filter (query-basic)
+2014-08-15 15:41:09,150 INFO  plugin.PluginRepository - 	Basic URL Normalizer (urlnormalizer-basic)
+2014-08-15 15:41:09,150 INFO  plugin.PluginRepository - 	Html Parse Plug-in (parse-html)
+2014-08-15 15:41:09,150 INFO  plugin.PluginRepository - 	Basic Indexing Filter (index-basic)
+2014-08-15 15:41:09,150 INFO  plugin.PluginRepository - 	Site Query Filter (query-site)
+2014-08-15 15:41:09,150 INFO  plugin.PluginRepository - 	Basic Summarizer Plug-in (summary-basic)
+2014-08-15 15:41:09,150 INFO  plugin.PluginRepository - 	HTTP Framework (lib-http)
+2014-08-15 15:41:09,150 INFO  plugin.PluginRepository - 	Text Parse Plug-in (parse-text)
+2014-08-15 15:41:09,150 INFO  plugin.PluginRepository - 	Pass-through URL Normalizer (urlnormalizer-pass)
+2014-08-15 15:41:09,150 INFO  plugin.PluginRepository - 	Regex URL Filter (urlfilter-regex)
+2014-08-15 15:41:09,150 INFO  plugin.PluginRepository - 	Http Protocol Plug-in (protocol-http)
+2014-08-15 15:41:09,150 INFO  plugin.PluginRepository - 	XML Response Writer Plug-in (response-xml)
+2014-08-15 15:41:09,150 INFO  plugin.PluginRepository - 	Regex URL Normalizer (urlnormalizer-regex)
+2014-08-15 15:41:09,150 INFO  plugin.PluginRepository - 	OPIC Scoring Plug-in (scoring-opic)
+2014-08-15 15:41:09,150 INFO  plugin.PluginRepository - 	Tika Parser Plug-in (parse-tika)
+2014-08-15 15:41:09,150 INFO  plugin.PluginRepository - 	CyberNeko HTML Parser (lib-nekohtml)
+2014-08-15 15:41:09,150 INFO  plugin.PluginRepository - 	Anchor Indexing Filter (index-anchor)
+2014-08-15 15:41:09,150 INFO  plugin.PluginRepository - 	JavaScript Parser (parse-js)
+2014-08-15 15:41:09,150 INFO  plugin.PluginRepository - 	URL Query Filter (query-url)
+2014-08-15 15:41:09,150 INFO  plugin.PluginRepository - 	Regex URL Filter Framework (lib-regex-filter)
+2014-08-15 15:41:09,150 INFO  plugin.PluginRepository - 	JSON Response Writer Plug-in (response-json)
+2014-08-15 15:41:09,150 INFO  plugin.PluginRepository - Registered Extension-Points:
+2014-08-15 15:41:09,150 INFO  plugin.PluginRepository - 	Nutch Summarizer (org.apache.nutch.searcher.Summarizer)
+2014-08-15 15:41:09,150 INFO  plugin.PluginRepository - 	Nutch Protocol (org.apache.nutch.protocol.Protocol)
+2014-08-15 15:41:09,150 INFO  plugin.PluginRepository - 	Nutch Segment Merge Filter (org.apache.nutch.segment.SegmentMergeFilter)
+2014-08-15 15:41:09,150 INFO  plugin.PluginRepository - 	Nutch Analysis (org.apache.nutch.analysis.NutchAnalyzer)
+2014-08-15 15:41:09,150 INFO  plugin.PluginRepository - 	Nutch Field Filter (org.apache.nutch.indexer.field.FieldFilter)
+2014-08-15 15:41:09,150 INFO  plugin.PluginRepository - 	HTML Parse Filter (org.apache.nutch.parse.HtmlParseFilter)
+2014-08-15 15:41:09,150 INFO  plugin.PluginRepository - 	Nutch Query Filter (org.apache.nutch.searcher.QueryFilter)
+2014-08-15 15:41:09,150 INFO  plugin.PluginRepository - 	Nutch Search Results Response Writer (org.apache.nutch.searcher.response.ResponseWriter)
+2014-08-15 15:41:09,150 INFO  plugin.PluginRepository - 	Nutch URL Normalizer (org.apache.nutch.net.URLNormalizer)
+2014-08-15 15:41:09,150 INFO  plugin.PluginRepository - 	Nutch URL Filter (org.apache.nutch.net.URLFilter)
+2014-08-15 15:41:09,151 INFO  plugin.PluginRepository - 	Nutch Online Search Results Clustering Plugin (org.apache.nutch.clustering.OnlineClusterer)
+2014-08-15 15:41:09,151 INFO  plugin.PluginRepository - 	Nutch Indexing Filter (org.apache.nutch.indexer.IndexingFilter)
+2014-08-15 15:41:09,151 INFO  plugin.PluginRepository - 	Nutch Content Parser (org.apache.nutch.parse.Parser)
+2014-08-15 15:41:09,151 INFO  plugin.PluginRepository - 	Nutch Scoring (org.apache.nutch.scoring.ScoringFilter)
+2014-08-15 15:41:09,151 INFO  plugin.PluginRepository - 	Ontology Model Loader (org.apache.nutch.ontology.Ontology)
+2014-08-15 15:41:09,171 WARN  regex.RegexURLNormalizer - can't find rules for scope 'crawldb', using default
+2014-08-15 15:41:09,463 INFO  plugin.PluginRepository - Plugins: looking in: C:\Users\lenovo\Workspaces\MyEclipse 8.6\NutchTest\.\plugins
+2014-08-15 15:41:09,556 INFO  plugin.PluginRepository - Plugin Auto-activation mode: [true]
+2014-08-15 15:41:09,556 INFO  plugin.PluginRepository - Registered Plugins:
+2014-08-15 15:41:09,556 INFO  plugin.PluginRepository - 	the nutch core extension points (nutch-extensionpoints)
+2014-08-15 15:41:09,556 INFO  plugin.PluginRepository - 	Basic Query Filter (query-basic)
+2014-08-15 15:41:09,556 INFO  plugin.PluginRepository - 	Basic URL Normalizer (urlnormalizer-basic)
+2014-08-15 15:41:09,556 INFO  plugin.PluginRepository - 	Html Parse Plug-in (parse-html)
+2014-08-15 15:41:09,556 INFO  plugin.PluginRepository - 	Basic Indexing Filter (index-basic)
+2014-08-15 15:41:09,556 INFO  plugin.PluginRepository - 	Site Query Filter (query-site)
+2014-08-15 15:41:09,556 INFO  plugin.PluginRepository - 	Basic Summarizer Plug-in (summary-basic)
+2014-08-15 15:41:09,556 INFO  plugin.PluginRepository - 	HTTP Framework (lib-http)
+2014-08-15 15:41:09,556 INFO  plugin.PluginRepository - 	Text Parse Plug-in (parse-text)
+2014-08-15 15:41:09,556 INFO  plugin.PluginRepository - 	Pass-through URL Normalizer (urlnormalizer-pass)
+2014-08-15 15:41:09,556 INFO  plugin.PluginRepository - 	Regex URL Filter (urlfilter-regex)
+2014-08-15 15:41:09,556 INFO  plugin.PluginRepository - 	Http Protocol Plug-in (protocol-http)
+2014-08-15 15:41:09,556 INFO  plugin.PluginRepository - 	XML Response Writer Plug-in (response-xml)
+2014-08-15 15:41:09,556 INFO  plugin.PluginRepository - 	Regex URL Normalizer (urlnormalizer-regex)
+2014-08-15 15:41:09,556 INFO  plugin.PluginRepository - 	OPIC Scoring Plug-in (scoring-opic)
+2014-08-15 15:41:09,556 INFO  plugin.PluginRepository - 	Tika Parser Plug-in (parse-tika)
+2014-08-15 15:41:09,556 INFO  plugin.PluginRepository - 	CyberNeko HTML Parser (lib-nekohtml)
+2014-08-15 15:41:09,556 INFO  plugin.PluginRepository - 	Anchor Indexing Filter (index-anchor)
+2014-08-15 15:41:09,556 INFO  plugin.PluginRepository - 	JavaScript Parser (parse-js)
+2014-08-15 15:41:09,556 INFO  plugin.PluginRepository - 	URL Query Filter (query-url)
+2014-08-15 15:41:09,557 INFO  plugin.PluginRepository - 	Regex URL Filter Framework (lib-regex-filter)
+2014-08-15 15:41:09,557 INFO  plugin.PluginRepository - 	JSON Response Writer Plug-in (response-json)
+2014-08-15 15:41:09,557 INFO  plugin.PluginRepository - Registered Extension-Points:
+2014-08-15 15:41:09,557 INFO  plugin.PluginRepository - 	Nutch Summarizer (org.apache.nutch.searcher.Summarizer)
+2014-08-15 15:41:09,557 INFO  plugin.PluginRepository - 	Nutch Protocol (org.apache.nutch.protocol.Protocol)
+2014-08-15 15:41:09,557 INFO  plugin.PluginRepository - 	Nutch Segment Merge Filter (org.apache.nutch.segment.SegmentMergeFilter)
+2014-08-15 15:41:09,557 INFO  plugin.PluginRepository - 	Nutch Analysis (org.apache.nutch.analysis.NutchAnalyzer)
+2014-08-15 15:41:09,557 INFO  plugin.PluginRepository - 	Nutch Field Filter (org.apache.nutch.indexer.field.FieldFilter)
+2014-08-15 15:41:09,557 INFO  plugin.PluginRepository - 	HTML Parse Filter (org.apache.nutch.parse.HtmlParseFilter)
+2014-08-15 15:41:09,557 INFO  plugin.PluginRepository - 	Nutch Query Filter (org.apache.nutch.searcher.QueryFilter)
+2014-08-15 15:41:09,557 INFO  plugin.PluginRepository - 	Nutch Search Results Response Writer (org.apache.nutch.searcher.response.ResponseWriter)
+2014-08-15 15:41:09,557 INFO  plugin.PluginRepository - 	Nutch URL Normalizer (org.apache.nutch.net.URLNormalizer)
+2014-08-15 15:41:09,557 INFO  plugin.PluginRepository - 	Nutch URL Filter (org.apache.nutch.net.URLFilter)
+2014-08-15 15:41:09,557 INFO  plugin.PluginRepository - 	Nutch Online Search Results Clustering Plugin (org.apache.nutch.clustering.OnlineClusterer)
+2014-08-15 15:41:09,557 INFO  plugin.PluginRepository - 	Nutch Indexing Filter (org.apache.nutch.indexer.IndexingFilter)
+2014-08-15 15:41:09,557 INFO  plugin.PluginRepository - 	Nutch Content Parser (org.apache.nutch.parse.Parser)
+2014-08-15 15:41:09,557 INFO  plugin.PluginRepository - 	Nutch Scoring (org.apache.nutch.scoring.ScoringFilter)
+2014-08-15 15:41:09,557 INFO  plugin.PluginRepository - 	Ontology Model Loader (org.apache.nutch.ontology.Ontology)
+2014-08-15 15:41:09,576 WARN  regex.RegexURLNormalizer - can't find rules for scope 'crawldb', using default
+2014-08-15 15:41:09,798 INFO  plugin.PluginRepository - Plugins: looking in: C:\Users\lenovo\Workspaces\MyEclipse 8.6\NutchTest\.\plugins
+2014-08-15 15:41:09,897 INFO  plugin.PluginRepository - Plugin Auto-activation mode: [true]
+2014-08-15 15:41:09,897 INFO  plugin.PluginRepository - Registered Plugins:
+2014-08-15 15:41:09,897 INFO  plugin.PluginRepository - 	the nutch core extension points (nutch-extensionpoints)
+2014-08-15 15:41:09,897 INFO  plugin.PluginRepository - 	Basic Query Filter (query-basic)
+2014-08-15 15:41:09,897 INFO  plugin.PluginRepository - 	Basic URL Normalizer (urlnormalizer-basic)
+2014-08-15 15:41:09,897 INFO  plugin.PluginRepository - 	Html Parse Plug-in (parse-html)
+2014-08-15 15:41:09,897 INFO  plugin.PluginRepository - 	Basic Indexing Filter (index-basic)
+2014-08-15 15:41:09,897 INFO  plugin.PluginRepository - 	Site Query Filter (query-site)
+2014-08-15 15:41:09,897 INFO  plugin.PluginRepository - 	Basic Summarizer Plug-in (summary-basic)
+2014-08-15 15:41:09,897 INFO  plugin.PluginRepository - 	HTTP Framework (lib-http)
+2014-08-15 15:41:09,897 INFO  plugin.PluginRepository - 	Text Parse Plug-in (parse-text)
+2014-08-15 15:41:09,897 INFO  plugin.PluginRepository - 	Pass-through URL Normalizer (urlnormalizer-pass)
+2014-08-15 15:41:09,897 INFO  plugin.PluginRepository - 	Regex URL Filter (urlfilter-regex)
+2014-08-15 15:41:09,897 INFO  plugin.PluginRepository - 	Http Protocol Plug-in (protocol-http)
+2014-08-15 15:41:09,897 INFO  plugin.PluginRepository - 	XML Response Writer Plug-in (response-xml)
+2014-08-15 15:41:09,897 INFO  plugin.PluginRepository - 	Regex URL Normalizer (urlnormalizer-regex)
+2014-08-15 15:41:09,897 INFO  plugin.PluginRepository - 	OPIC Scoring Plug-in (scoring-opic)
+2014-08-15 15:41:09,897 INFO  plugin.PluginRepository - 	Tika Parser Plug-in (parse-tika)
+2014-08-15 15:41:09,897 INFO  plugin.PluginRepository - 	CyberNeko HTML Parser (lib-nekohtml)
+2014-08-15 15:41:09,897 INFO  plugin.PluginRepository - 	Anchor Indexing Filter (index-anchor)
+2014-08-15 15:41:09,897 INFO  plugin.PluginRepository - 	JavaScript Parser (parse-js)
+2014-08-15 15:41:09,897 INFO  plugin.PluginRepository - 	URL Query Filter (query-url)
+2014-08-15 15:41:09,897 INFO  plugin.PluginRepository - 	Regex URL Filter Framework (lib-regex-filter)
+2014-08-15 15:41:09,897 INFO  plugin.PluginRepository - 	JSON Response Writer Plug-in (response-json)
+2014-08-15 15:41:09,897 INFO  plugin.PluginRepository - Registered Extension-Points:
+2014-08-15 15:41:09,897 INFO  plugin.PluginRepository - 	Nutch Summarizer (org.apache.nutch.searcher.Summarizer)
+2014-08-15 15:41:09,897 INFO  plugin.PluginRepository - 	Nutch Protocol (org.apache.nutch.protocol.Protocol)
+2014-08-15 15:41:09,897 INFO  plugin.PluginRepository - 	Nutch Segment Merge Filter (org.apache.nutch.segment.SegmentMergeFilter)
+2014-08-15 15:41:09,897 INFO  plugin.PluginRepository - 	Nutch Analysis (org.apache.nutch.analysis.NutchAnalyzer)
+2014-08-15 15:41:09,897 INFO  plugin.PluginRepository - 	Nutch Field Filter (org.apache.nutch.indexer.field.FieldFilter)
+2014-08-15 15:41:09,897 INFO  plugin.PluginRepository - 	HTML Parse Filter (org.apache.nutch.parse.HtmlParseFilter)
+2014-08-15 15:41:09,897 INFO  plugin.PluginRepository - 	Nutch Query Filter (org.apache.nutch.searcher.QueryFilter)
+2014-08-15 15:41:09,897 INFO  plugin.PluginRepository - 	Nutch Search Results Response Writer (org.apache.nutch.searcher.response.ResponseWriter)
+2014-08-15 15:41:09,897 INFO  plugin.PluginRepository - 	Nutch URL Normalizer (org.apache.nutch.net.URLNormalizer)
+2014-08-15 15:41:09,897 INFO  plugin.PluginRepository - 	Nutch URL Filter (org.apache.nutch.net.URLFilter)
+2014-08-15 15:41:09,897 INFO  plugin.PluginRepository - 	Nutch Online Search Results Clustering Plugin (org.apache.nutch.clustering.OnlineClusterer)
+2014-08-15 15:41:09,897 INFO  plugin.PluginRepository - 	Nutch Indexing Filter (org.apache.nutch.indexer.IndexingFilter)
+2014-08-15 15:41:09,897 INFO  plugin.PluginRepository - 	Nutch Content Parser (org.apache.nutch.parse.Parser)
+2014-08-15 15:41:09,897 INFO  plugin.PluginRepository - 	Nutch Scoring (org.apache.nutch.scoring.ScoringFilter)
+2014-08-15 15:41:09,897 INFO  plugin.PluginRepository - 	Ontology Model Loader (org.apache.nutch.ontology.Ontology)
+2014-08-15 15:41:09,916 WARN  regex.RegexURLNormalizer - can't find rules for scope 'crawldb', using default
+2014-08-15 15:41:09,971 INFO  plugin.PluginRepository - Plugins: looking in: C:\Users\lenovo\Workspaces\MyEclipse 8.6\NutchTest\.\plugins
+2014-08-15 15:41:10,067 INFO  plugin.PluginRepository - Plugin Auto-activation mode: [true]
+2014-08-15 15:41:10,067 INFO  plugin.PluginRepository - Registered Plugins:
+2014-08-15 15:41:10,067 INFO  plugin.PluginRepository - 	the nutch core extension points (nutch-extensionpoints)
+2014-08-15 15:41:10,067 INFO  plugin.PluginRepository - 	Basic Query Filter (query-basic)
+2014-08-15 15:41:10,067 INFO  plugin.PluginRepository - 	Basic URL Normalizer (urlnormalizer-basic)
+2014-08-15 15:41:10,067 INFO  plugin.PluginRepository - 	Html Parse Plug-in (parse-html)
+2014-08-15 15:41:10,067 INFO  plugin.PluginRepository - 	Basic Indexing Filter (index-basic)
+2014-08-15 15:41:10,067 INFO  plugin.PluginRepository - 	Site Query Filter (query-site)
+2014-08-15 15:41:10,067 INFO  plugin.PluginRepository - 	Basic Summarizer Plug-in (summary-basic)
+2014-08-15 15:41:10,067 INFO  plugin.PluginRepository - 	HTTP Framework (lib-http)
+2014-08-15 15:41:10,067 INFO  plugin.PluginRepository - 	Text Parse Plug-in (parse-text)
+2014-08-15 15:41:10,067 INFO  plugin.PluginRepository - 	Pass-through URL Normalizer (urlnormalizer-pass)
+2014-08-15 15:41:10,067 INFO  plugin.PluginRepository - 	Regex URL Filter (urlfilter-regex)
+2014-08-15 15:41:10,067 INFO  plugin.PluginRepository - 	Http Protocol Plug-in (protocol-http)
+2014-08-15 15:41:10,067 INFO  plugin.PluginRepository - 	XML Response Writer Plug-in (response-xml)
+2014-08-15 15:41:10,067 INFO  plugin.PluginRepository - 	Regex URL Normalizer (urlnormalizer-regex)
+2014-08-15 15:41:10,067 INFO  plugin.PluginRepository - 	OPIC Scoring Plug-in (scoring-opic)
+2014-08-15 15:41:10,067 INFO  plugin.PluginRepository - 	Tika Parser Plug-in (parse-tika)
+2014-08-15 15:41:10,067 INFO  plugin.PluginRepository - 	CyberNeko HTML Parser (lib-nekohtml)
+2014-08-15 15:41:10,067 INFO  plugin.PluginRepository - 	Anchor Indexing Filter (index-anchor)
+2014-08-15 15:41:10,067 INFO  plugin.PluginRepository - 	JavaScript Parser (parse-js)
+2014-08-15 15:41:10,067 INFO  plugin.PluginRepository - 	URL Query Filter (query-url)
+2014-08-15 15:41:10,067 INFO  plugin.PluginRepository - 	Regex URL Filter Framework (lib-regex-filter)
+2014-08-15 15:41:10,067 INFO  plugin.PluginRepository - 	JSON Response Writer Plug-in (response-json)
+2014-08-15 15:41:10,067 INFO  plugin.PluginRepository - Registered Extension-Points:
+2014-08-15 15:41:10,067 INFO  plugin.PluginRepository - 	Nutch Summarizer (org.apache.nutch.searcher.Summarizer)
+2014-08-15 15:41:10,067 INFO  plugin.PluginRepository - 	Nutch Protocol (org.apache.nutch.protocol.Protocol)
+2014-08-15 15:41:10,067 INFO  plugin.PluginRepository - 	Nutch Segment Merge Filter (org.apache.nutch.segment.SegmentMergeFilter)
+2014-08-15 15:41:10,067 INFO  plugin.PluginRepository - 	Nutch Analysis (org.apache.nutch.analysis.NutchAnalyzer)
+2014-08-15 15:41:10,067 INFO  plugin.PluginRepository - 	Nutch Field Filter (org.apache.nutch.indexer.field.FieldFilter)
+2014-08-15 15:41:10,067 INFO  plugin.PluginRepository - 	HTML Parse Filter (org.apache.nutch.parse.HtmlParseFilter)
+2014-08-15 15:41:10,067 INFO  plugin.PluginRepository - 	Nutch Query Filter (org.apache.nutch.searcher.QueryFilter)
+2014-08-15 15:41:10,067 INFO  plugin.PluginRepository - 	Nutch Search Results Response Writer (org.apache.nutch.searcher.response.ResponseWriter)
+2014-08-15 15:41:10,067 INFO  plugin.PluginRepository - 	Nutch URL Normalizer (org.apache.nutch.net.URLNormalizer)
+2014-08-15 15:41:10,067 INFO  plugin.PluginRepository - 	Nutch URL Filter (org.apache.nutch.net.URLFilter)
+2014-08-15 15:41:10,067 INFO  plugin.PluginRepository - 	Nutch Online Search Results Clustering Plugin (org.apache.nutch.clustering.OnlineClusterer)
+2014-08-15 15:41:10,067 INFO  plugin.PluginRepository - 	Nutch Indexing Filter (org.apache.nutch.indexer.IndexingFilter)
+2014-08-15 15:41:10,067 INFO  plugin.PluginRepository - 	Nutch Content Parser (org.apache.nutch.parse.Parser)
+2014-08-15 15:41:10,068 INFO  plugin.PluginRepository - 	Nutch Scoring (org.apache.nutch.scoring.ScoringFilter)
+2014-08-15 15:41:10,068 INFO  plugin.PluginRepository - 	Ontology Model Loader (org.apache.nutch.ontology.Ontology)
+2014-08-15 15:41:10,071 INFO  crawl.FetchScheduleFactory - Using FetchSchedule impl: org.apache.nutch.crawl.DefaultFetchSchedule
+2014-08-15 15:41:10,071 INFO  crawl.AbstractFetchSchedule - defaultInterval=2592000
+2014-08-15 15:41:10,071 INFO  crawl.AbstractFetchSchedule - maxInterval=7776000
+2014-08-15 15:41:10,926 INFO  crawl.CrawlDb - CrawlDb update: finished at 2014-08-15 15:41:10, elapsed: 00:00:02
+2014-08-15 15:41:11,002 INFO  crawl.Generator - Generator: starting at 2014-08-15 15:41:11
+2014-08-15 15:41:11,002 INFO  crawl.Generator - Generator: Selecting best-scoring urls due for fetch.
+2014-08-15 15:41:11,002 INFO  crawl.Generator - Generator: filtering: true
+2014-08-15 15:41:11,002 INFO  crawl.Generator - Generator: normalizing: true
+2014-08-15 15:41:11,002 INFO  crawl.Generator - Generator: topN: 100
+2014-08-15 15:41:11,003 INFO  crawl.Generator - Generator: jobtracker is 'local', generating exactly one partition.
+2014-08-15 15:41:11,003 WARN  mapred.JobClient - Use GenericOptionsParser for parsing the arguments. Applications should implement Tool for the same.
+2014-08-15 15:41:11,151 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2014-08-15 15:41:11,726 INFO  plugin.PluginRepository - Plugins: looking in: C:\Users\lenovo\Workspaces\MyEclipse 8.6\NutchTest\.\plugins
+2014-08-15 15:41:11,853 INFO  plugin.PluginRepository - Plugin Auto-activation mode: [true]
+2014-08-15 15:41:11,853 INFO  plugin.PluginRepository - Registered Plugins:
+2014-08-15 15:41:11,854 INFO  plugin.PluginRepository - 	the nutch core extension points (nutch-extensionpoints)
+2014-08-15 15:41:11,854 INFO  plugin.PluginRepository - 	Basic Query Filter (query-basic)
+2014-08-15 15:41:11,854 INFO  plugin.PluginRepository - 	Basic URL Normalizer (urlnormalizer-basic)
+2014-08-15 15:41:11,854 INFO  plugin.PluginRepository - 	Html Parse Plug-in (parse-html)
+2014-08-15 15:41:11,854 INFO  plugin.PluginRepository - 	Basic Indexing Filter (index-basic)
+2014-08-15 15:41:11,854 INFO  plugin.PluginRepository - 	Site Query Filter (query-site)
+2014-08-15 15:41:11,854 INFO  plugin.PluginRepository - 	Basic Summarizer Plug-in (summary-basic)
+2014-08-15 15:41:11,854 INFO  plugin.PluginRepository - 	HTTP Framework (lib-http)
+2014-08-15 15:41:11,854 INFO  plugin.PluginRepository - 	Text Parse Plug-in (parse-text)
+2014-08-15 15:41:11,854 INFO  plugin.PluginRepository - 	Pass-through URL Normalizer (urlnormalizer-pass)
+2014-08-15 15:41:11,854 INFO  plugin.PluginRepository - 	Regex URL Filter (urlfilter-regex)
+2014-08-15 15:41:11,854 INFO  plugin.PluginRepository - 	Http Protocol Plug-in (protocol-http)
+2014-08-15 15:41:11,854 INFO  plugin.PluginRepository - 	XML Response Writer Plug-in (response-xml)
+2014-08-15 15:41:11,854 INFO  plugin.PluginRepository - 	Regex URL Normalizer (urlnormalizer-regex)
+2014-08-15 15:41:11,854 INFO  plugin.PluginRepository - 	OPIC Scoring Plug-in (scoring-opic)
+2014-08-15 15:41:11,854 INFO  plugin.PluginRepository - 	Tika Parser Plug-in (parse-tika)
+2014-08-15 15:41:11,854 INFO  plugin.PluginRepository - 	CyberNeko HTML Parser (lib-nekohtml)
+2014-08-15 15:41:11,854 INFO  plugin.PluginRepository - 	Anchor Indexing Filter (index-anchor)
+2014-08-15 15:41:11,854 INFO  plugin.PluginRepository - 	JavaScript Parser (parse-js)
+2014-08-15 15:41:11,854 INFO  plugin.PluginRepository - 	URL Query Filter (query-url)
+2014-08-15 15:41:11,854 INFO  plugin.PluginRepository - 	Regex URL Filter Framework (lib-regex-filter)
+2014-08-15 15:41:11,854 INFO  plugin.PluginRepository - 	JSON Response Writer Plug-in (response-json)
+2014-08-15 15:41:11,854 INFO  plugin.PluginRepository - Registered Extension-Points:
+2014-08-15 15:41:11,854 INFO  plugin.PluginRepository - 	Nutch Summarizer (org.apache.nutch.searcher.Summarizer)
+2014-08-15 15:41:11,854 INFO  plugin.PluginRepository - 	Nutch Protocol (org.apache.nutch.protocol.Protocol)
+2014-08-15 15:41:11,854 INFO  plugin.PluginRepository - 	Nutch Segment Merge Filter (org.apache.nutch.segment.SegmentMergeFilter)
+2014-08-15 15:41:11,854 INFO  plugin.PluginRepository - 	Nutch Analysis (org.apache.nutch.analysis.NutchAnalyzer)
+2014-08-15 15:41:11,854 INFO  plugin.PluginRepository - 	Nutch Field Filter (org.apache.nutch.indexer.field.FieldFilter)
+2014-08-15 15:41:11,854 INFO  plugin.PluginRepository - 	HTML Parse Filter (org.apache.nutch.parse.HtmlParseFilter)
+2014-08-15 15:41:11,854 INFO  plugin.PluginRepository - 	Nutch Query Filter (org.apache.nutch.searcher.QueryFilter)
+2014-08-15 15:41:11,854 INFO  plugin.PluginRepository - 	Nutch Search Results Response Writer (org.apache.nutch.searcher.response.ResponseWriter)
+2014-08-15 15:41:11,854 INFO  plugin.PluginRepository - 	Nutch URL Normalizer (org.apache.nutch.net.URLNormalizer)
+2014-08-15 15:41:11,854 INFO  plugin.PluginRepository - 	Nutch URL Filter (org.apache.nutch.net.URLFilter)
+2014-08-15 15:41:11,854 INFO  plugin.PluginRepository - 	Nutch Online Search Results Clustering Plugin (org.apache.nutch.clustering.OnlineClusterer)
+2014-08-15 15:41:11,854 INFO  plugin.PluginRepository - 	Nutch Indexing Filter (org.apache.nutch.indexer.IndexingFilter)
+2014-08-15 15:41:11,854 INFO  plugin.PluginRepository - 	Nutch Content Parser (org.apache.nutch.parse.Parser)
+2014-08-15 15:41:11,854 INFO  plugin.PluginRepository - 	Nutch Scoring (org.apache.nutch.scoring.ScoringFilter)
+2014-08-15 15:41:11,854 INFO  plugin.PluginRepository - 	Ontology Model Loader (org.apache.nutch.ontology.Ontology)
+2014-08-15 15:41:11,875 INFO  crawl.FetchScheduleFactory - Using FetchSchedule impl: org.apache.nutch.crawl.DefaultFetchSchedule
+2014-08-15 15:41:11,875 INFO  crawl.AbstractFetchSchedule - defaultInterval=2592000
+2014-08-15 15:41:11,875 INFO  crawl.AbstractFetchSchedule - maxInterval=7776000
+2014-08-15 15:41:11,929 INFO  plugin.PluginRepository - Plugins: looking in: C:\Users\lenovo\Workspaces\MyEclipse 8.6\NutchTest\.\plugins
+2014-08-15 15:41:12,033 INFO  plugin.PluginRepository - Plugin Auto-activation mode: [true]
+2014-08-15 15:41:12,033 INFO  plugin.PluginRepository - Registered Plugins:
+2014-08-15 15:41:12,033 INFO  plugin.PluginRepository - 	the nutch core extension points (nutch-extensionpoints)
+2014-08-15 15:41:12,033 INFO  plugin.PluginRepository - 	Basic Query Filter (query-basic)
+2014-08-15 15:41:12,033 INFO  plugin.PluginRepository - 	Basic URL Normalizer (urlnormalizer-basic)
+2014-08-15 15:41:12,033 INFO  plugin.PluginRepository - 	Html Parse Plug-in (parse-html)
+2014-08-15 15:41:12,033 INFO  plugin.PluginRepository - 	Basic Indexing Filter (index-basic)
+2014-08-15 15:41:12,033 INFO  plugin.PluginRepository - 	Site Query Filter (query-site)
+2014-08-15 15:41:12,033 INFO  plugin.PluginRepository - 	Basic Summarizer Plug-in (summary-basic)
+2014-08-15 15:41:12,033 INFO  plugin.PluginRepository - 	HTTP Framework (lib-http)
+2014-08-15 15:41:12,033 INFO  plugin.PluginRepository - 	Text Parse Plug-in (parse-text)
+2014-08-15 15:41:12,033 INFO  plugin.PluginRepository - 	Pass-through URL Normalizer (urlnormalizer-pass)
+2014-08-15 15:41:12,033 INFO  plugin.PluginRepository - 	Regex URL Filter (urlfilter-regex)
+2014-08-15 15:41:12,033 INFO  plugin.PluginRepository - 	Http Protocol Plug-in (protocol-http)
+2014-08-15 15:41:12,033 INFO  plugin.PluginRepository - 	XML Response Writer Plug-in (response-xml)
+2014-08-15 15:41:12,033 INFO  plugin.PluginRepository - 	Regex URL Normalizer (urlnormalizer-regex)
+2014-08-15 15:41:12,033 INFO  plugin.PluginRepository - 	OPIC Scoring Plug-in (scoring-opic)
+2014-08-15 15:41:12,033 INFO  plugin.PluginRepository - 	Tika Parser Plug-in (parse-tika)
+2014-08-15 15:41:12,033 INFO  plugin.PluginRepository - 	CyberNeko HTML Parser (lib-nekohtml)
+2014-08-15 15:41:12,033 INFO  plugin.PluginRepository - 	Anchor Indexing Filter (index-anchor)
+2014-08-15 15:41:12,033 INFO  plugin.PluginRepository - 	JavaScript Parser (parse-js)
+2014-08-15 15:41:12,033 INFO  plugin.PluginRepository - 	URL Query Filter (query-url)
+2014-08-15 15:41:12,033 INFO  plugin.PluginRepository - 	Regex URL Filter Framework (lib-regex-filter)
+2014-08-15 15:41:12,034 INFO  plugin.PluginRepository - 	JSON Response Writer Plug-in (response-json)
+2014-08-15 15:41:12,034 INFO  plugin.PluginRepository - Registered Extension-Points:
+2014-08-15 15:41:12,034 INFO  plugin.PluginRepository - 	Nutch Summarizer (org.apache.nutch.searcher.Summarizer)
+2014-08-15 15:41:12,034 INFO  plugin.PluginRepository - 	Nutch Protocol (org.apache.nutch.protocol.Protocol)
+2014-08-15 15:41:12,034 INFO  plugin.PluginRepository - 	Nutch Segment Merge Filter (org.apache.nutch.segment.SegmentMergeFilter)
+2014-08-15 15:41:12,034 INFO  plugin.PluginRepository - 	Nutch Analysis (org.apache.nutch.analysis.NutchAnalyzer)
+2014-08-15 15:41:12,034 INFO  plugin.PluginRepository - 	Nutch Field Filter (org.apache.nutch.indexer.field.FieldFilter)
+2014-08-15 15:41:12,034 INFO  plugin.PluginRepository - 	HTML Parse Filter (org.apache.nutch.parse.HtmlParseFilter)
+2014-08-15 15:41:12,034 INFO  plugin.PluginRepository - 	Nutch Query Filter (org.apache.nutch.searcher.QueryFilter)
+2014-08-15 15:41:12,034 INFO  plugin.PluginRepository - 	Nutch Search Results Response Writer (org.apache.nutch.searcher.response.ResponseWriter)
+2014-08-15 15:41:12,034 INFO  plugin.PluginRepository - 	Nutch URL Normalizer (org.apache.nutch.net.URLNormalizer)
+2014-08-15 15:41:12,034 INFO  plugin.PluginRepository - 	Nutch URL Filter (org.apache.nutch.net.URLFilter)
+2014-08-15 15:41:12,034 INFO  plugin.PluginRepository - 	Nutch Online Search Results Clustering Plugin (org.apache.nutch.clustering.OnlineClusterer)
+2014-08-15 15:41:12,034 INFO  plugin.PluginRepository - 	Nutch Indexing Filter (org.apache.nutch.indexer.IndexingFilter)
+2014-08-15 15:41:12,034 INFO  plugin.PluginRepository - 	Nutch Content Parser (org.apache.nutch.parse.Parser)
+2014-08-15 15:41:12,034 INFO  plugin.PluginRepository - 	Nutch Scoring (org.apache.nutch.scoring.ScoringFilter)
+2014-08-15 15:41:12,034 INFO  plugin.PluginRepository - 	Ontology Model Loader (org.apache.nutch.ontology.Ontology)
+2014-08-15 15:41:12,057 INFO  crawl.FetchScheduleFactory - Using FetchSchedule impl: org.apache.nutch.crawl.DefaultFetchSchedule
+2014-08-15 15:41:12,058 INFO  crawl.AbstractFetchSchedule - defaultInterval=2592000
+2014-08-15 15:41:12,058 INFO  crawl.AbstractFetchSchedule - maxInterval=7776000
+2014-08-15 15:41:12,571 WARN  crawl.Generator - Generator: 0 records selected for fetching, exiting ...
+2014-08-15 15:41:12,581 INFO  crawl.Crawl - Stopping at depth=1 - no more URLs to fetch.
+2014-08-15 15:41:12,763 INFO  crawl.LinkDb - LinkDb: starting at 2014-08-15 15:41:12
+2014-08-15 15:41:12,763 INFO  crawl.LinkDb - LinkDb: linkdb: crawl/linkdb
+2014-08-15 15:41:12,763 INFO  crawl.LinkDb - LinkDb: URL normalize: true
+2014-08-15 15:41:12,763 INFO  crawl.LinkDb - LinkDb: URL filter: true
+2014-08-15 15:41:12,777 INFO  crawl.LinkDb - LinkDb: adding segment: file:/C:/Users/lenovo/Workspaces/MyEclipse 8.6/NutchTest/crawl/segments/20140515111339
+2014-08-15 15:41:12,777 INFO  crawl.LinkDb - LinkDb: adding segment: file:/C:/Users/lenovo/Workspaces/MyEclipse 8.6/NutchTest/crawl/segments/20140515111351
+2014-08-15 15:41:12,777 INFO  crawl.LinkDb - LinkDb: adding segment: file:/C:/Users/lenovo/Workspaces/MyEclipse 8.6/NutchTest/crawl/segments/20140815154100
+2014-08-15 15:41:12,778 WARN  mapred.JobClient - Use GenericOptionsParser for parsing the arguments. Applications should implement Tool for the same.
+2014-08-15 15:41:12,917 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2014-08-15 15:41:14,375 INFO  crawl.LinkDb - LinkDb: merging with existing linkdb: crawl/linkdb
+2014-08-15 15:41:14,402 WARN  mapred.JobClient - Use GenericOptionsParser for parsing the arguments. Applications should implement Tool for the same.
+2014-08-15 15:41:14,555 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2014-08-15 15:41:15,398 INFO  plugin.PluginRepository - Plugins: looking in: C:\Users\lenovo\Workspaces\MyEclipse 8.6\NutchTest\.\plugins
+2014-08-15 15:41:15,492 INFO  plugin.PluginRepository - Plugin Auto-activation mode: [true]
+2014-08-15 15:41:15,492 INFO  plugin.PluginRepository - Registered Plugins:
+2014-08-15 15:41:15,492 INFO  plugin.PluginRepository - 	the nutch core extension points (nutch-extensionpoints)
+2014-08-15 15:41:15,492 INFO  plugin.PluginRepository - 	Basic Query Filter (query-basic)
+2014-08-15 15:41:15,492 INFO  plugin.PluginRepository - 	Basic URL Normalizer (urlnormalizer-basic)
+2014-08-15 15:41:15,492 INFO  plugin.PluginRepository - 	Html Parse Plug-in (parse-html)
+2014-08-15 15:41:15,492 INFO  plugin.PluginRepository - 	Basic Indexing Filter (index-basic)
+2014-08-15 15:41:15,492 INFO  plugin.PluginRepository - 	Site Query Filter (query-site)
+2014-08-15 15:41:15,492 INFO  plugin.PluginRepository - 	Basic Summarizer Plug-in (summary-basic)
+2014-08-15 15:41:15,492 INFO  plugin.PluginRepository - 	HTTP Framework (lib-http)
+2014-08-15 15:41:15,492 INFO  plugin.PluginRepository - 	Text Parse Plug-in (parse-text)
+2014-08-15 15:41:15,492 INFO  plugin.PluginRepository - 	Pass-through URL Normalizer (urlnormalizer-pass)
+2014-08-15 15:41:15,492 INFO  plugin.PluginRepository - 	Regex URL Filter (urlfilter-regex)
+2014-08-15 15:41:15,492 INFO  plugin.PluginRepository - 	Http Protocol Plug-in (protocol-http)
+2014-08-15 15:41:15,492 INFO  plugin.PluginRepository - 	XML Response Writer Plug-in (response-xml)
+2014-08-15 15:41:15,492 INFO  plugin.PluginRepository - 	Regex URL Normalizer (urlnormalizer-regex)
+2014-08-15 15:41:15,492 INFO  plugin.PluginRepository - 	OPIC Scoring Plug-in (scoring-opic)
+2014-08-15 15:41:15,492 INFO  plugin.PluginRepository - 	Tika Parser Plug-in (parse-tika)
+2014-08-15 15:41:15,493 INFO  plugin.PluginRepository - 	CyberNeko HTML Parser (lib-nekohtml)
+2014-08-15 15:41:15,493 INFO  plugin.PluginRepository - 	Anchor Indexing Filter (index-anchor)
+2014-08-15 15:41:15,493 INFO  plugin.PluginRepository - 	JavaScript Parser (parse-js)
+2014-08-15 15:41:15,493 INFO  plugin.PluginRepository - 	URL Query Filter (query-url)
+2014-08-15 15:41:15,493 INFO  plugin.PluginRepository - 	Regex URL Filter Framework (lib-regex-filter)
+2014-08-15 15:41:15,493 INFO  plugin.PluginRepository - 	JSON Response Writer Plug-in (response-json)
+2014-08-15 15:41:15,493 INFO  plugin.PluginRepository - Registered Extension-Points:
+2014-08-15 15:41:15,493 INFO  plugin.PluginRepository - 	Nutch Summarizer (org.apache.nutch.searcher.Summarizer)
+2014-08-15 15:41:15,493 INFO  plugin.PluginRepository - 	Nutch Protocol (org.apache.nutch.protocol.Protocol)
+2014-08-15 15:41:15,493 INFO  plugin.PluginRepository - 	Nutch Segment Merge Filter (org.apache.nutch.segment.SegmentMergeFilter)
+2014-08-15 15:41:15,493 INFO  plugin.PluginRepository - 	Nutch Analysis (org.apache.nutch.analysis.NutchAnalyzer)
+2014-08-15 15:41:15,493 INFO  plugin.PluginRepository - 	Nutch Field Filter (org.apache.nutch.indexer.field.FieldFilter)
+2014-08-15 15:41:15,493 INFO  plugin.PluginRepository - 	HTML Parse Filter (org.apache.nutch.parse.HtmlParseFilter)
+2014-08-15 15:41:15,493 INFO  plugin.PluginRepository - 	Nutch Query Filter (org.apache.nutch.searcher.QueryFilter)
+2014-08-15 15:41:15,493 INFO  plugin.PluginRepository - 	Nutch Search Results Response Writer (org.apache.nutch.searcher.response.ResponseWriter)
+2014-08-15 15:41:15,493 INFO  plugin.PluginRepository - 	Nutch URL Normalizer (org.apache.nutch.net.URLNormalizer)
+2014-08-15 15:41:15,493 INFO  plugin.PluginRepository - 	Nutch URL Filter (org.apache.nutch.net.URLFilter)
+2014-08-15 15:41:15,493 INFO  plugin.PluginRepository - 	Nutch Online Search Results Clustering Plugin (org.apache.nutch.clustering.OnlineClusterer)
+2014-08-15 15:41:15,493 INFO  plugin.PluginRepository - 	Nutch Indexing Filter (org.apache.nutch.indexer.IndexingFilter)
+2014-08-15 15:41:15,493 INFO  plugin.PluginRepository - 	Nutch Content Parser (org.apache.nutch.parse.Parser)
+2014-08-15 15:41:15,493 INFO  plugin.PluginRepository - 	Nutch Scoring (org.apache.nutch.scoring.ScoringFilter)
+2014-08-15 15:41:15,493 INFO  plugin.PluginRepository - 	Ontology Model Loader (org.apache.nutch.ontology.Ontology)
+2014-08-15 15:41:15,512 WARN  regex.RegexURLNormalizer - can't find rules for scope 'linkdb', using default
+2014-08-15 15:41:15,671 INFO  plugin.PluginRepository - Plugins: looking in: C:\Users\lenovo\Workspaces\MyEclipse 8.6\NutchTest\.\plugins
+2014-08-15 15:41:15,832 INFO  plugin.PluginRepository - Plugin Auto-activation mode: [true]
+2014-08-15 15:41:15,833 INFO  plugin.PluginRepository - Registered Plugins:
+2014-08-15 15:41:15,833 INFO  plugin.PluginRepository - 	the nutch core extension points (nutch-extensionpoints)
+2014-08-15 15:41:15,833 INFO  plugin.PluginRepository - 	Basic Query Filter (query-basic)
+2014-08-15 15:41:15,833 INFO  plugin.PluginRepository - 	Basic URL Normalizer (urlnormalizer-basic)
+2014-08-15 15:41:15,833 INFO  plugin.PluginRepository - 	Html Parse Plug-in (parse-html)
+2014-08-15 15:41:15,833 INFO  plugin.PluginRepository - 	Basic Indexing Filter (index-basic)
+2014-08-15 15:41:15,833 INFO  plugin.PluginRepository - 	Site Query Filter (query-site)
+2014-08-15 15:41:15,833 INFO  plugin.PluginRepository - 	Basic Summarizer Plug-in (summary-basic)
+2014-08-15 15:41:15,833 INFO  plugin.PluginRepository - 	HTTP Framework (lib-http)
+2014-08-15 15:41:15,833 INFO  plugin.PluginRepository - 	Text Parse Plug-in (parse-text)
+2014-08-15 15:41:15,833 INFO  plugin.PluginRepository - 	Pass-through URL Normalizer (urlnormalizer-pass)
+2014-08-15 15:41:15,833 INFO  plugin.PluginRepository - 	Regex URL Filter (urlfilter-regex)
+2014-08-15 15:41:15,833 INFO  plugin.PluginRepository - 	Http Protocol Plug-in (protocol-http)
+2014-08-15 15:41:15,833 INFO  plugin.PluginRepository - 	XML Response Writer Plug-in (response-xml)
+2014-08-15 15:41:15,833 INFO  plugin.PluginRepository - 	Regex URL Normalizer (urlnormalizer-regex)
+2014-08-15 15:41:15,833 INFO  plugin.PluginRepository - 	OPIC Scoring Plug-in (scoring-opic)
+2014-08-15 15:41:15,833 INFO  plugin.PluginRepository - 	Tika Parser Plug-in (parse-tika)
+2014-08-15 15:41:15,833 INFO  plugin.PluginRepository - 	CyberNeko HTML Parser (lib-nekohtml)
+2014-08-15 15:41:15,833 INFO  plugin.PluginRepository - 	Anchor Indexing Filter (index-anchor)
+2014-08-15 15:41:15,833 INFO  plugin.PluginRepository - 	JavaScript Parser (parse-js)
+2014-08-15 15:41:15,833 INFO  plugin.PluginRepository - 	URL Query Filter (query-url)
+2014-08-15 15:41:15,833 INFO  plugin.PluginRepository - 	Regex URL Filter Framework (lib-regex-filter)
+2014-08-15 15:41:15,833 INFO  plugin.PluginRepository - 	JSON Response Writer Plug-in (response-json)
+2014-08-15 15:41:15,833 INFO  plugin.PluginRepository - Registered Extension-Points:
+2014-08-15 15:41:15,833 INFO  plugin.PluginRepository - 	Nutch Summarizer (org.apache.nutch.searcher.Summarizer)
+2014-08-15 15:41:15,834 INFO  plugin.PluginRepository - 	Nutch Protocol (org.apache.nutch.protocol.Protocol)
+2014-08-15 15:41:15,834 INFO  plugin.PluginRepository - 	Nutch Segment Merge Filter (org.apache.nutch.segment.SegmentMergeFilter)
+2014-08-15 15:41:15,834 INFO  plugin.PluginRepository - 	Nutch Analysis (org.apache.nutch.analysis.NutchAnalyzer)
+2014-08-15 15:41:15,834 INFO  plugin.PluginRepository - 	Nutch Field Filter (org.apache.nutch.indexer.field.FieldFilter)
+2014-08-15 15:41:15,834 INFO  plugin.PluginRepository - 	HTML Parse Filter (org.apache.nutch.parse.HtmlParseFilter)
+2014-08-15 15:41:15,834 INFO  plugin.PluginRepository - 	Nutch Query Filter (org.apache.nutch.searcher.QueryFilter)
+2014-08-15 15:41:15,834 INFO  plugin.PluginRepository - 	Nutch Search Results Response Writer (org.apache.nutch.searcher.response.ResponseWriter)
+2014-08-15 15:41:15,834 INFO  plugin.PluginRepository - 	Nutch URL Normalizer (org.apache.nutch.net.URLNormalizer)
+2014-08-15 15:41:15,834 INFO  plugin.PluginRepository - 	Nutch URL Filter (org.apache.nutch.net.URLFilter)
+2014-08-15 15:41:15,834 INFO  plugin.PluginRepository - 	Nutch Online Search Results Clustering Plugin (org.apache.nutch.clustering.OnlineClusterer)
+2014-08-15 15:41:15,834 INFO  plugin.PluginRepository - 	Nutch Indexing Filter (org.apache.nutch.indexer.IndexingFilter)
+2014-08-15 15:41:15,834 INFO  plugin.PluginRepository - 	Nutch Content Parser (org.apache.nutch.parse.Parser)
+2014-08-15 15:41:15,834 INFO  plugin.PluginRepository - 	Nutch Scoring (org.apache.nutch.scoring.ScoringFilter)
+2014-08-15 15:41:15,834 INFO  plugin.PluginRepository - 	Ontology Model Loader (org.apache.nutch.ontology.Ontology)
+2014-08-15 15:41:15,901 WARN  regex.RegexURLNormalizer - can't find rules for scope 'linkdb', using default
+2014-08-15 15:41:17,492 INFO  crawl.LinkDb - LinkDb: finished at 2014-08-15 15:41:17, elapsed: 00:00:04
+2014-08-15 15:41:17,651 INFO  crawl.Crawl - Deleting old indexes: crawl/indexes
+2014-08-15 15:41:17,710 INFO  crawl.Crawl - Deleting old merged index: crawl/index
+2014-08-15 15:41:17,817 INFO  indexer.Indexer - Indexer: starting at 2014-08-15 15:41:17
+2014-08-15 15:41:17,876 INFO  indexer.IndexerMapReduce - IndexerMapReduce: crawldb: crawl/crawldb
+2014-08-15 15:41:17,876 INFO  indexer.IndexerMapReduce - IndexerMapReduce: linkdb: crawl/linkdb
+2014-08-15 15:41:17,877 INFO  indexer.IndexerMapReduce - IndexerMapReduces: adding segment: file:/C:/Users/lenovo/Workspaces/MyEclipse 8.6/NutchTest/crawl/segments/20140515111339
+2014-08-15 15:41:17,877 INFO  indexer.IndexerMapReduce - IndexerMapReduces: adding segment: file:/C:/Users/lenovo/Workspaces/MyEclipse 8.6/NutchTest/crawl/segments/20140515111351
+2014-08-15 15:41:17,878 INFO  indexer.IndexerMapReduce - IndexerMapReduces: adding segment: file:/C:/Users/lenovo/Workspaces/MyEclipse 8.6/NutchTest/crawl/segments/20140815154100
+2014-08-15 15:41:18,229 WARN  mapred.JobClient - Use GenericOptionsParser for parsing the arguments. Applications should implement Tool for the same.
+2014-08-15 15:41:18,393 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2014-08-15 15:41:19,258 INFO  plugin.PluginRepository - Plugins: looking in: C:\Users\lenovo\Workspaces\MyEclipse 8.6\NutchTest\.\plugins
+2014-08-15 15:41:19,402 INFO  plugin.PluginRepository - Plugin Auto-activation mode: [true]
+2014-08-15 15:41:19,402 INFO  plugin.PluginRepository - Registered Plugins:
+2014-08-15 15:41:19,402 INFO  plugin.PluginRepository - 	the nutch core extension points (nutch-extensionpoints)
+2014-08-15 15:41:19,402 INFO  plugin.PluginRepository - 	Basic Query Filter (query-basic)
+2014-08-15 15:41:19,402 INFO  plugin.PluginRepository - 	Basic URL Normalizer (urlnormalizer-basic)
+2014-08-15 15:41:19,402 INFO  plugin.PluginRepository - 	Html Parse Plug-in (parse-html)
+2014-08-15 15:41:19,402 INFO  plugin.PluginRepository - 	Basic Indexing Filter (index-basic)
+2014-08-15 15:41:19,402 INFO  plugin.PluginRepository - 	Site Query Filter (query-site)
+2014-08-15 15:41:19,402 INFO  plugin.PluginRepository - 	Basic Summarizer Plug-in (summary-basic)
+2014-08-15 15:41:19,402 INFO  plugin.PluginRepository - 	HTTP Framework (lib-http)
+2014-08-15 15:41:19,402 INFO  plugin.PluginRepository - 	Text Parse Plug-in (parse-text)
+2014-08-15 15:41:19,402 INFO  plugin.PluginRepository - 	Pass-through URL Normalizer (urlnormalizer-pass)
+2014-08-15 15:41:19,402 INFO  plugin.PluginRepository - 	Regex URL Filter (urlfilter-regex)
+2014-08-15 15:41:19,402 INFO  plugin.PluginRepository - 	Http Protocol Plug-in (protocol-http)
+2014-08-15 15:41:19,402 INFO  plugin.PluginRepository - 	XML Response Writer Plug-in (response-xml)
+2014-08-15 15:41:19,402 INFO  plugin.PluginRepository - 	Regex URL Normalizer (urlnormalizer-regex)
+2014-08-15 15:41:19,402 INFO  plugin.PluginRepository - 	OPIC Scoring Plug-in (scoring-opic)
+2014-08-15 15:41:19,402 INFO  plugin.PluginRepository - 	Tika Parser Plug-in (parse-tika)
+2014-08-15 15:41:19,402 INFO  plugin.PluginRepository - 	CyberNeko HTML Parser (lib-nekohtml)
+2014-08-15 15:41:19,402 INFO  plugin.PluginRepository - 	Anchor Indexing Filter (index-anchor)
+2014-08-15 15:41:19,402 INFO  plugin.PluginRepository - 	JavaScript Parser (parse-js)
+2014-08-15 15:41:19,403 INFO  plugin.PluginRepository - 	URL Query Filter (query-url)
+2014-08-15 15:41:19,403 INFO  plugin.PluginRepository - 	Regex URL Filter Framework (lib-regex-filter)
+2014-08-15 15:41:19,403 INFO  plugin.PluginRepository - 	JSON Response Writer Plug-in (response-json)
+2014-08-15 15:41:19,403 INFO  plugin.PluginRepository - Registered Extension-Points:
+2014-08-15 15:41:19,403 INFO  plugin.PluginRepository - 	Nutch Summarizer (org.apache.nutch.searcher.Summarizer)
+2014-08-15 15:41:19,403 INFO  plugin.PluginRepository - 	Nutch Protocol (org.apache.nutch.protocol.Protocol)
+2014-08-15 15:41:19,403 INFO  plugin.PluginRepository - 	Nutch Segment Merge Filter (org.apache.nutch.segment.SegmentMergeFilter)
+2014-08-15 15:41:19,403 INFO  plugin.PluginRepository - 	Nutch Analysis (org.apache.nutch.analysis.NutchAnalyzer)
+2014-08-15 15:41:19,403 INFO  plugin.PluginRepository - 	Nutch Field Filter (org.apache.nutch.indexer.field.FieldFilter)
+2014-08-15 15:41:19,403 INFO  plugin.PluginRepository - 	HTML Parse Filter (org.apache.nutch.parse.HtmlParseFilter)
+2014-08-15 15:41:19,403 INFO  plugin.PluginRepository - 	Nutch Query Filter (org.apache.nutch.searcher.QueryFilter)
+2014-08-15 15:41:19,403 INFO  plugin.PluginRepository - 	Nutch Search Results Response Writer (org.apache.nutch.searcher.response.ResponseWriter)
+2014-08-15 15:41:19,403 INFO  plugin.PluginRepository - 	Nutch URL Normalizer (org.apache.nutch.net.URLNormalizer)
+2014-08-15 15:41:19,403 INFO  plugin.PluginRepository - 	Nutch URL Filter (org.apache.nutch.net.URLFilter)
+2014-08-15 15:41:19,403 INFO  plugin.PluginRepository - 	Nutch Online Search Results Clustering Plugin (org.apache.nutch.clustering.OnlineClusterer)
+2014-08-15 15:41:19,403 INFO  plugin.PluginRepository - 	Nutch Indexing Filter (org.apache.nutch.indexer.IndexingFilter)
+2014-08-15 15:41:19,403 INFO  plugin.PluginRepository - 	Nutch Content Parser (org.apache.nutch.parse.Parser)
+2014-08-15 15:41:19,403 INFO  plugin.PluginRepository - 	Nutch Scoring (org.apache.nutch.scoring.ScoringFilter)
+2014-08-15 15:41:19,403 INFO  plugin.PluginRepository - 	Ontology Model Loader (org.apache.nutch.ontology.Ontology)
+2014-08-15 15:41:19,460 INFO  indexer.IndexingFilters - Adding org.apache.nutch.indexer.basic.BasicIndexingFilter
+2014-08-15 15:41:19,485 INFO  indexer.IndexingFilters - Adding org.apache.nutch.indexer.anchor.AnchorIndexingFilter
+2014-08-15 15:41:19,669 INFO  plugin.PluginRepository - Plugins: looking in: C:\Users\lenovo\Workspaces\MyEclipse 8.6\NutchTest\.\plugins
+2014-08-15 15:41:19,762 INFO  plugin.PluginRepository - Plugin Auto-activation mode: [true]
+2014-08-15 15:41:19,762 INFO  plugin.PluginRepository - Registered Plugins:
+2014-08-15 15:41:19,762 INFO  plugin.PluginRepository - 	the nutch core extension points (nutch-extensionpoints)
+2014-08-15 15:41:19,762 INFO  plugin.PluginRepository - 	Basic Query Filter (query-basic)
+2014-08-15 15:41:19,762 INFO  plugin.PluginRepository - 	Basic URL Normalizer (urlnormalizer-basic)
+2014-08-15 15:41:19,762 INFO  plugin.PluginRepository - 	Html Parse Plug-in (parse-html)
+2014-08-15 15:41:19,762 INFO  plugin.PluginRepository - 	Basic Indexing Filter (index-basic)
+2014-08-15 15:41:19,762 INFO  plugin.PluginRepository - 	Site Query Filter (query-site)
+2014-08-15 15:41:19,762 INFO  plugin.PluginRepository - 	Basic Summarizer Plug-in (summary-basic)
+2014-08-15 15:41:19,762 INFO  plugin.PluginRepository - 	HTTP Framework (lib-http)
+2014-08-15 15:41:19,762 INFO  plugin.PluginRepository - 	Text Parse Plug-in (parse-text)
+2014-08-15 15:41:19,762 INFO  plugin.PluginRepository - 	Pass-through URL Normalizer (urlnormalizer-pass)
+2014-08-15 15:41:19,762 INFO  plugin.PluginRepository - 	Regex URL Filter (urlfilter-regex)
+2014-08-15 15:41:19,762 INFO  plugin.PluginRepository - 	Http Protocol Plug-in (protocol-http)
+2014-08-15 15:41:19,762 INFO  plugin.PluginRepository - 	XML Response Writer Plug-in (response-xml)
+2014-08-15 15:41:19,762 INFO  plugin.PluginRepository - 	Regex URL Normalizer (urlnormalizer-regex)
+2014-08-15 15:41:19,762 INFO  plugin.PluginRepository - 	OPIC Scoring Plug-in (scoring-opic)
+2014-08-15 15:41:19,762 INFO  plugin.PluginRepository - 	Tika Parser Plug-in (parse-tika)
+2014-08-15 15:41:19,762 INFO  plugin.PluginRepository - 	CyberNeko HTML Parser (lib-nekohtml)
+2014-08-15 15:41:19,762 INFO  plugin.PluginRepository - 	Anchor Indexing Filter (index-anchor)
+2014-08-15 15:41:19,762 INFO  plugin.PluginRepository - 	JavaScript Parser (parse-js)
+2014-08-15 15:41:19,762 INFO  plugin.PluginRepository - 	URL Query Filter (query-url)
+2014-08-15 15:41:19,762 INFO  plugin.PluginRepository - 	Regex URL Filter Framework (lib-regex-filter)
+2014-08-15 15:41:19,762 INFO  plugin.PluginRepository - 	JSON Response Writer Plug-in (response-json)
+2014-08-15 15:41:19,762 INFO  plugin.PluginRepository - Registered Extension-Points:
+2014-08-15 15:41:19,762 INFO  plugin.PluginRepository - 	Nutch Summarizer (org.apache.nutch.searcher.Summarizer)
+2014-08-15 15:41:19,762 INFO  plugin.PluginRepository - 	Nutch Protocol (org.apache.nutch.protocol.Protocol)
+2014-08-15 15:41:19,762 INFO  plugin.PluginRepository - 	Nutch Segment Merge Filter (org.apache.nutch.segment.SegmentMergeFilter)
+2014-08-15 15:41:19,762 INFO  plugin.PluginRepository - 	Nutch Analysis (org.apache.nutch.analysis.NutchAnalyzer)
+2014-08-15 15:41:19,762 INFO  plugin.PluginRepository - 	Nutch Field Filter (org.apache.nutch.indexer.field.FieldFilter)
+2014-08-15 15:41:19,762 INFO  plugin.PluginRepository - 	HTML Parse Filter (org.apache.nutch.parse.HtmlParseFilter)
+2014-08-15 15:41:19,762 INFO  plugin.PluginRepository - 	Nutch Query Filter (org.apache.nutch.searcher.QueryFilter)
+2014-08-15 15:41:19,762 INFO  plugin.PluginRepository - 	Nutch Search Results Response Writer (org.apache.nutch.searcher.response.ResponseWriter)
+2014-08-15 15:41:19,762 INFO  plugin.PluginRepository - 	Nutch URL Normalizer (org.apache.nutch.net.URLNormalizer)
+2014-08-15 15:41:19,762 INFO  plugin.PluginRepository - 	Nutch URL Filter (org.apache.nutch.net.URLFilter)
+2014-08-15 15:41:19,762 INFO  plugin.PluginRepository - 	Nutch Online Search Results Clustering Plugin (org.apache.nutch.clustering.OnlineClusterer)
+2014-08-15 15:41:19,762 INFO  plugin.PluginRepository - 	Nutch Indexing Filter (org.apache.nutch.indexer.IndexingFilter)
+2014-08-15 15:41:19,762 INFO  plugin.PluginRepository - 	Nutch Content Parser (org.apache.nutch.parse.Parser)
+2014-08-15 15:41:19,762 INFO  plugin.PluginRepository - 	Nutch Scoring (org.apache.nutch.scoring.ScoringFilter)
+2014-08-15 15:41:19,762 INFO  plugin.PluginRepository - 	Ontology Model Loader (org.apache.nutch.ontology.Ontology)
+2014-08-15 15:41:19,765 INFO  indexer.IndexingFilters - Adding org.apache.nutch.indexer.basic.BasicIndexingFilter
+2014-08-15 15:41:19,767 INFO  indexer.IndexingFilters - Adding org.apache.nutch.indexer.anchor.AnchorIndexingFilter
+2014-08-15 15:41:19,926 INFO  plugin.PluginRepository - Plugins: looking in: C:\Users\lenovo\Workspaces\MyEclipse 8.6\NutchTest\.\plugins
+2014-08-15 15:41:20,017 INFO  plugin.PluginRepository - Plugin Auto-activation mode: [true]
+2014-08-15 15:41:20,017 INFO  plugin.PluginRepository - Registered Plugins:
+2014-08-15 15:41:20,017 INFO  plugin.PluginRepository - 	the nutch core extension points (nutch-extensionpoints)
+2014-08-15 15:41:20,017 INFO  plugin.PluginRepository - 	Basic Query Filter (query-basic)
+2014-08-15 15:41:20,017 INFO  plugin.PluginRepository - 	Basic URL Normalizer (urlnormalizer-basic)
+2014-08-15 15:41:20,017 INFO  plugin.PluginRepository - 	Html Parse Plug-in (parse-html)
+2014-08-15 15:41:20,017 INFO  plugin.PluginRepository - 	Basic Indexing Filter (index-basic)
+2014-08-15 15:41:20,017 INFO  plugin.PluginRepository - 	Site Query Filter (query-site)
+2014-08-15 15:41:20,017 INFO  plugin.PluginRepository - 	Basic Summarizer Plug-in (summary-basic)
+2014-08-15 15:41:20,017 INFO  plugin.PluginRepository - 	HTTP Framework (lib-http)
+2014-08-15 15:41:20,017 INFO  plugin.PluginRepository - 	Text Parse Plug-in (parse-text)
+2014-08-15 15:41:20,017 INFO  plugin.PluginRepository - 	Pass-through URL Normalizer (urlnormalizer-pass)
+2014-08-15 15:41:20,017 INFO  plugin.PluginRepository - 	Regex URL Filter (urlfilter-regex)
+2014-08-15 15:41:20,017 INFO  plugin.PluginRepository - 	Http Protocol Plug-in (protocol-http)
+2014-08-15 15:41:20,017 INFO  plugin.PluginRepository - 	XML Response Writer Plug-in (response-xml)
+2014-08-15 15:41:20,017 INFO  plugin.PluginRepository - 	Regex URL Normalizer (urlnormalizer-regex)
+2014-08-15 15:41:20,017 INFO  plugin.PluginRepository - 	OPIC Scoring Plug-in (scoring-opic)
+2014-08-15 15:41:20,017 INFO  plugin.PluginRepository - 	Tika Parser Plug-in (parse-tika)
+2014-08-15 15:41:20,017 INFO  plugin.PluginRepository - 	CyberNeko HTML Parser (lib-nekohtml)
+2014-08-15 15:41:20,017 INFO  plugin.PluginRepository - 	Anchor Indexing Filter (index-anchor)
+2014-08-15 15:41:20,017 INFO  plugin.PluginRepository - 	JavaScript Parser (parse-js)
+2014-08-15 15:41:20,017 INFO  plugin.PluginRepository - 	URL Query Filter (query-url)
+2014-08-15 15:41:20,017 INFO  plugin.PluginRepository - 	Regex URL Filter Framework (lib-regex-filter)
+2014-08-15 15:41:20,017 INFO  plugin.PluginRepository - 	JSON Response Writer Plug-in (response-json)
+2014-08-15 15:41:20,017 INFO  plugin.PluginRepository - Registered Extension-Points:
+2014-08-15 15:41:20,017 INFO  plugin.PluginRepository - 	Nutch Summarizer (org.apache.nutch.searcher.Summarizer)
+2014-08-15 15:41:20,017 INFO  plugin.PluginRepository - 	Nutch Protocol (org.apache.nutch.protocol.Protocol)
+2014-08-15 15:41:20,017 INFO  plugin.PluginRepository - 	Nutch Segment Merge Filter (org.apache.nutch.segment.SegmentMergeFilter)
+2014-08-15 15:41:20,017 INFO  plugin.PluginRepository - 	Nutch Analysis (org.apache.nutch.analysis.NutchAnalyzer)
+2014-08-15 15:41:20,017 INFO  plugin.PluginRepository - 	Nutch Field Filter (org.apache.nutch.indexer.field.FieldFilter)
+2014-08-15 15:41:20,018 INFO  plugin.PluginRepository - 	HTML Parse Filter (org.apache.nutch.parse.HtmlParseFilter)
+2014-08-15 15:41:20,018 INFO  plugin.PluginRepository - 	Nutch Query Filter (org.apache.nutch.searcher.QueryFilter)
+2014-08-15 15:41:20,018 INFO  plugin.PluginRepository - 	Nutch Search Results Response Writer (org.apache.nutch.searcher.response.ResponseWriter)
+2014-08-15 15:41:20,018 INFO  plugin.PluginRepository - 	Nutch URL Normalizer (org.apache.nutch.net.URLNormalizer)
+2014-08-15 15:41:20,018 INFO  plugin.PluginRepository - 	Nutch URL Filter (org.apache.nutch.net.URLFilter)
+2014-08-15 15:41:20,018 INFO  plugin.PluginRepository - 	Nutch Online Search Results Clustering Plugin (org.apache.nutch.clustering.OnlineClusterer)
+2014-08-15 15:41:20,018 INFO  plugin.PluginRepository - 	Nutch Indexing Filter (org.apache.nutch.indexer.IndexingFilter)
+2014-08-15 15:41:20,018 INFO  plugin.PluginRepository - 	Nutch Content Parser (org.apache.nutch.parse.Parser)
+2014-08-15 15:41:20,018 INFO  plugin.PluginRepository - 	Nutch Scoring (org.apache.nutch.scoring.ScoringFilter)
+2014-08-15 15:41:20,018 INFO  plugin.PluginRepository - 	Ontology Model Loader (org.apache.nutch.ontology.Ontology)
+2014-08-15 15:41:20,020 INFO  indexer.IndexingFilters - Adding org.apache.nutch.indexer.basic.BasicIndexingFilter
+2014-08-15 15:41:20,023 INFO  indexer.IndexingFilters - Adding org.apache.nutch.indexer.anchor.AnchorIndexingFilter
+2014-08-15 15:41:20,190 INFO  plugin.PluginRepository - Plugins: looking in: C:\Users\lenovo\Workspaces\MyEclipse 8.6\NutchTest\.\plugins
+2014-08-15 15:41:20,282 INFO  plugin.PluginRepository - Plugin Auto-activation mode: [true]
+2014-08-15 15:41:20,282 INFO  plugin.PluginRepository - Registered Plugins:
+2014-08-15 15:41:20,282 INFO  plugin.PluginRepository - 	the nutch core extension points (nutch-extensionpoints)
+2014-08-15 15:41:20,282 INFO  plugin.PluginRepository - 	Basic Query Filter (query-basic)
+2014-08-15 15:41:20,282 INFO  plugin.PluginRepository - 	Basic URL Normalizer (urlnormalizer-basic)
+2014-08-15 15:41:20,282 INFO  plugin.PluginRepository - 	Html Parse Plug-in (parse-html)
+2014-08-15 15:41:20,282 INFO  plugin.PluginRepository - 	Basic Indexing Filter (index-basic)
+2014-08-15 15:41:20,282 INFO  plugin.PluginRepository - 	Site Query Filter (query-site)
+2014-08-15 15:41:20,282 INFO  plugin.PluginRepository - 	Basic Summarizer Plug-in (summary-basic)
+2014-08-15 15:41:20,282 INFO  plugin.PluginRepository - 	HTTP Framework (lib-http)
+2014-08-15 15:41:20,282 INFO  plugin.PluginRepository - 	Text Parse Plug-in (parse-text)
+2014-08-15 15:41:20,282 INFO  plugin.PluginRepository - 	Pass-through URL Normalizer (urlnormalizer-pass)
+2014-08-15 15:41:20,282 INFO  plugin.PluginRepository - 	Regex URL Filter (urlfilter-regex)
+2014-08-15 15:41:20,282 INFO  plugin.PluginRepository - 	Http Protocol Plug-in (protocol-http)
+2014-08-15 15:41:20,282 INFO  plugin.PluginRepository - 	XML Response Writer Plug-in (response-xml)
+2014-08-15 15:41:20,282 INFO  plugin.PluginRepository - 	Regex URL Normalizer (urlnormalizer-regex)
+2014-08-15 15:41:20,282 INFO  plugin.PluginRepository - 	OPIC Scoring Plug-in (scoring-opic)
+2014-08-15 15:41:20,282 INFO  plugin.PluginRepository - 	Tika Parser Plug-in (parse-tika)
+2014-08-15 15:41:20,282 INFO  plugin.PluginRepository - 	CyberNeko HTML Parser (lib-nekohtml)
+2014-08-15 15:41:20,282 INFO  plugin.PluginRepository - 	Anchor Indexing Filter (index-anchor)
+2014-08-15 15:41:20,282 INFO  plugin.PluginRepository - 	JavaScript Parser (parse-js)
+2014-08-15 15:41:20,282 INFO  plugin.PluginRepository - 	URL Query Filter (query-url)
+2014-08-15 15:41:20,282 INFO  plugin.PluginRepository - 	Regex URL Filter Framework (lib-regex-filter)
+2014-08-15 15:41:20,282 INFO  plugin.PluginRepository - 	JSON Response Writer Plug-in (response-json)
+2014-08-15 15:41:20,282 INFO  plugin.PluginRepository - Registered Extension-Points:
+2014-08-15 15:41:20,282 INFO  plugin.PluginRepository - 	Nutch Summarizer (org.apache.nutch.searcher.Summarizer)
+2014-08-15 15:41:20,282 INFO  plugin.PluginRepository - 	Nutch Protocol (org.apache.nutch.protocol.Protocol)
+2014-08-15 15:41:20,282 INFO  plugin.PluginRepository - 	Nutch Segment Merge Filter (org.apache.nutch.segment.SegmentMergeFilter)
+2014-08-15 15:41:20,282 INFO  plugin.PluginRepository - 	Nutch Analysis (org.apache.nutch.analysis.NutchAnalyzer)
+2014-08-15 15:41:20,282 INFO  plugin.PluginRepository - 	Nutch Field Filter (org.apache.nutch.indexer.field.FieldFilter)
+2014-08-15 15:41:20,282 INFO  plugin.PluginRepository - 	HTML Parse Filter (org.apache.nutch.parse.HtmlParseFilter)
+2014-08-15 15:41:20,282 INFO  plugin.PluginRepository - 	Nutch Query Filter (org.apache.nutch.searcher.QueryFilter)
+2014-08-15 15:41:20,282 INFO  plugin.PluginRepository - 	Nutch Search Results Response Writer (org.apache.nutch.searcher.response.ResponseWriter)
+2014-08-15 15:41:20,282 INFO  plugin.PluginRepository - 	Nutch URL Normalizer (org.apache.nutch.net.URLNormalizer)
+2014-08-15 15:41:20,282 INFO  plugin.PluginRepository - 	Nutch URL Filter (org.apache.nutch.net.URLFilter)
+2014-08-15 15:41:20,282 INFO  plugin.PluginRepository - 	Nutch Online Search Results Clustering Plugin (org.apache.nutch.clustering.OnlineClusterer)
+2014-08-15 15:41:20,282 INFO  plugin.PluginRepository - 	Nutch Indexing Filter (org.apache.nutch.indexer.IndexingFilter)
+2014-08-15 15:41:20,282 INFO  plugin.PluginRepository - 	Nutch Content Parser (org.apache.nutch.parse.Parser)
+2014-08-15 15:41:20,282 INFO  plugin.PluginRepository - 	Nutch Scoring (org.apache.nutch.scoring.ScoringFilter)
+2014-08-15 15:41:20,282 INFO  plugin.PluginRepository - 	Ontology Model Loader (org.apache.nutch.ontology.Ontology)
+2014-08-15 15:41:20,285 INFO  indexer.IndexingFilters - Adding org.apache.nutch.indexer.basic.BasicIndexingFilter
+2014-08-15 15:41:20,288 INFO  indexer.IndexingFilters - Adding org.apache.nutch.indexer.anchor.AnchorIndexingFilter
+2014-08-15 15:41:20,471 INFO  plugin.PluginRepository - Plugins: looking in: C:\Users\lenovo\Workspaces\MyEclipse 8.6\NutchTest\.\plugins
+2014-08-15 15:41:20,563 INFO  plugin.PluginRepository - Plugin Auto-activation mode: [true]
+2014-08-15 15:41:20,563 INFO  plugin.PluginRepository - Registered Plugins:
+2014-08-15 15:41:20,563 INFO  plugin.PluginRepository - 	the nutch core extension points (nutch-extensionpoints)
+2014-08-15 15:41:20,563 INFO  plugin.PluginRepository - 	Basic Query Filter (query-basic)
+2014-08-15 15:41:20,563 INFO  plugin.PluginRepository - 	Basic URL Normalizer (urlnormalizer-basic)
+2014-08-15 15:41:20,563 INFO  plugin.PluginRepository - 	Html Parse Plug-in (parse-html)
+2014-08-15 15:41:20,563 INFO  plugin.PluginRepository - 	Basic Indexing Filter (index-basic)
+2014-08-15 15:41:20,563 INFO  plugin.PluginRepository - 	Site Query Filter (query-site)
+2014-08-15 15:41:20,563 INFO  plugin.PluginRepository - 	Basic Summarizer Plug-in (summary-basic)
+2014-08-15 15:41:20,563 INFO  plugin.PluginRepository - 	HTTP Framework (lib-http)
+2014-08-15 15:41:20,563 INFO  plugin.PluginRepository - 	Text Parse Plug-in (parse-text)
+2014-08-15 15:41:20,563 INFO  plugin.PluginRepository - 	Pass-through URL Normalizer (urlnormalizer-pass)
+2014-08-15 15:41:20,563 INFO  plugin.PluginRepository - 	Regex URL Filter (urlfilter-regex)
+2014-08-15 15:41:20,563 INFO  plugin.PluginRepository - 	Http Protocol Plug-in (protocol-http)
+2014-08-15 15:41:20,563 INFO  plugin.PluginRepository - 	XML Response Writer Plug-in (response-xml)
+2014-08-15 15:41:20,563 INFO  plugin.PluginRepository - 	Regex URL Normalizer (urlnormalizer-regex)
+2014-08-15 15:41:20,563 INFO  plugin.PluginRepository - 	OPIC Scoring Plug-in (scoring-opic)
+2014-08-15 15:41:20,563 INFO  plugin.PluginRepository - 	Tika Parser Plug-in (parse-tika)
+2014-08-15 15:41:20,563 INFO  plugin.PluginRepository - 	CyberNeko HTML Parser (lib-nekohtml)
+2014-08-15 15:41:20,563 INFO  plugin.PluginRepository - 	Anchor Indexing Filter (index-anchor)
+2014-08-15 15:41:20,563 INFO  plugin.PluginRepository - 	JavaScript Parser (parse-js)
+2014-08-15 15:41:20,563 INFO  plugin.PluginRepository - 	URL Query Filter (query-url)
+2014-08-15 15:41:20,563 INFO  plugin.PluginRepository - 	Regex URL Filter Framework (lib-regex-filter)
+2014-08-15 15:41:20,563 INFO  plugin.PluginRepository - 	JSON Response Writer Plug-in (response-json)
+2014-08-15 15:41:20,563 INFO  plugin.PluginRepository - Registered Extension-Points:
+2014-08-15 15:41:20,563 INFO  plugin.PluginRepository - 	Nutch Summarizer (org.apache.nutch.searcher.Summarizer)
+2014-08-15 15:41:20,563 INFO  plugin.PluginRepository - 	Nutch Protocol (org.apache.nutch.protocol.Protocol)
+2014-08-15 15:41:20,563 INFO  plugin.PluginRepository - 	Nutch Segment Merge Filter (org.apache.nutch.segment.SegmentMergeFilter)
+2014-08-15 15:41:20,563 INFO  plugin.PluginRepository - 	Nutch Analysis (org.apache.nutch.analysis.NutchAnalyzer)
+2014-08-15 15:41:20,563 INFO  plugin.PluginRepository - 	Nutch Field Filter (org.apache.nutch.indexer.field.FieldFilter)
+2014-08-15 15:41:20,564 INFO  plugin.PluginRepository - 	HTML Parse Filter (org.apache.nutch.parse.HtmlParseFilter)
+2014-08-15 15:41:20,564 INFO  plugin.PluginRepository - 	Nutch Query Filter (org.apache.nutch.searcher.QueryFilter)
+2014-08-15 15:41:20,564 INFO  plugin.PluginRepository - 	Nutch Search Results Response Writer (org.apache.nutch.searcher.response.ResponseWriter)
+2014-08-15 15:41:20,564 INFO  plugin.PluginRepository - 	Nutch URL Normalizer (org.apache.nutch.net.URLNormalizer)
+2014-08-15 15:41:20,564 INFO  plugin.PluginRepository - 	Nutch URL Filter (org.apache.nutch.net.URLFilter)
+2014-08-15 15:41:20,564 INFO  plugin.PluginRepository - 	Nutch Online Search Results Clustering Plugin (org.apache.nutch.clustering.OnlineClusterer)
+2014-08-15 15:41:20,564 INFO  plugin.PluginRepository - 	Nutch Indexing Filter (org.apache.nutch.indexer.IndexingFilter)
+2014-08-15 15:41:20,564 INFO  plugin.PluginRepository - 	Nutch Content Parser (org.apache.nutch.parse.Parser)
+2014-08-15 15:41:20,564 INFO  plugin.PluginRepository - 	Nutch Scoring (org.apache.nutch.scoring.ScoringFilter)
+2014-08-15 15:41:20,564 INFO  plugin.PluginRepository - 	Ontology Model Loader (org.apache.nutch.ontology.Ontology)
+2014-08-15 15:41:20,566 INFO  indexer.IndexingFilters - Adding org.apache.nutch.indexer.basic.BasicIndexingFilter
+2014-08-15 15:41:20,569 INFO  indexer.IndexingFilters - Adding org.apache.nutch.indexer.anchor.AnchorIndexingFilter
+2014-08-15 15:41:20,713 INFO  plugin.PluginRepository - Plugins: looking in: C:\Users\lenovo\Workspaces\MyEclipse 8.6\NutchTest\.\plugins
+2014-08-15 15:41:20,804 INFO  plugin.PluginRepository - Plugin Auto-activation mode: [true]
+2014-08-15 15:41:20,804 INFO  plugin.PluginRepository - Registered Plugins:
+2014-08-15 15:41:20,804 INFO  plugin.PluginRepository - 	the nutch core extension points (nutch-extensionpoints)
+2014-08-15 15:41:20,804 INFO  plugin.PluginRepository - 	Basic Query Filter (query-basic)
+2014-08-15 15:41:20,804 INFO  plugin.PluginRepository - 	Basic URL Normalizer (urlnormalizer-basic)
+2014-08-15 15:41:20,804 INFO  plugin.PluginRepository - 	Html Parse Plug-in (parse-html)
+2014-08-15 15:41:20,804 INFO  plugin.PluginRepository - 	Basic Indexing Filter (index-basic)
+2014-08-15 15:41:20,804 INFO  plugin.PluginRepository - 	Site Query Filter (query-site)
+2014-08-15 15:41:20,804 INFO  plugin.PluginRepository - 	Basic Summarizer Plug-in (summary-basic)
+2014-08-15 15:41:20,804 INFO  plugin.PluginRepository - 	HTTP Framework (lib-http)
+2014-08-15 15:41:20,804 INFO  plugin.PluginRepository - 	Text Parse Plug-in (parse-text)
+2014-08-15 15:41:20,804 INFO  plugin.PluginRepository - 	Pass-through URL Normalizer (urlnormalizer-pass)
+2014-08-15 15:41:20,804 INFO  plugin.PluginRepository - 	Regex URL Filter (urlfilter-regex)
+2014-08-15 15:41:20,804 INFO  plugin.PluginRepository - 	Http Protocol Plug-in (protocol-http)
+2014-08-15 15:41:20,805 INFO  plugin.PluginRepository - 	XML Response Writer Plug-in (response-xml)
+2014-08-15 15:41:20,805 INFO  plugin.PluginRepository - 	Regex URL Normalizer (urlnormalizer-regex)
+2014-08-15 15:41:20,805 INFO  plugin.PluginRepository - 	OPIC Scoring Plug-in (scoring-opic)
+2014-08-15 15:41:20,805 INFO  plugin.PluginRepository - 	Tika Parser Plug-in (parse-tika)
+2014-08-15 15:41:20,805 INFO  plugin.PluginRepository - 	CyberNeko HTML Parser (lib-nekohtml)
+2014-08-15 15:41:20,805 INFO  plugin.PluginRepository - 	Anchor Indexing Filter (index-anchor)
+2014-08-15 15:41:20,805 INFO  plugin.PluginRepository - 	JavaScript Parser (parse-js)
+2014-08-15 15:41:20,805 INFO  plugin.PluginRepository - 	URL Query Filter (query-url)
+2014-08-15 15:41:20,805 INFO  plugin.PluginRepository - 	Regex URL Filter Framework (lib-regex-filter)
+2014-08-15 15:41:20,805 INFO  plugin.PluginRepository - 	JSON Response Writer Plug-in (response-json)
+2014-08-15 15:41:20,805 INFO  plugin.PluginRepository - Registered Extension-Points:
+2014-08-15 15:41:20,805 INFO  plugin.PluginRepository - 	Nutch Summarizer (org.apache.nutch.searcher.Summarizer)
+2014-08-15 15:41:20,805 INFO  plugin.PluginRepository - 	Nutch Protocol (org.apache.nutch.protocol.Protocol)
+2014-08-15 15:41:20,805 INFO  plugin.PluginRepository - 	Nutch Segment Merge Filter (org.apache.nutch.segment.SegmentMergeFilter)
+2014-08-15 15:41:20,805 INFO  plugin.PluginRepository - 	Nutch Analysis (org.apache.nutch.analysis.NutchAnalyzer)
+2014-08-15 15:41:20,805 INFO  plugin.PluginRepository - 	Nutch Field Filter (org.apache.nutch.indexer.field.FieldFilter)
+2014-08-15 15:41:20,805 INFO  plugin.PluginRepository - 	HTML Parse Filter (org.apache.nutch.parse.HtmlParseFilter)
+2014-08-15 15:41:20,805 INFO  plugin.PluginRepository - 	Nutch Query Filter (org.apache.nutch.searcher.QueryFilter)
+2014-08-15 15:41:20,805 INFO  plugin.PluginRepository - 	Nutch Search Results Response Writer (org.apache.nutch.searcher.response.ResponseWriter)
+2014-08-15 15:41:20,805 INFO  plugin.PluginRepository - 	Nutch URL Normalizer (org.apache.nutch.net.URLNormalizer)
+2014-08-15 15:41:20,805 INFO  plugin.PluginRepository - 	Nutch URL Filter (org.apache.nutch.net.URLFilter)
+2014-08-15 15:41:20,805 INFO  plugin.PluginRepository - 	Nutch Online Search Results Clustering Plugin (org.apache.nutch.clustering.OnlineClusterer)
+2014-08-15 15:41:20,805 INFO  plugin.PluginRepository - 	Nutch Indexing Filter (org.apache.nutch.indexer.IndexingFilter)
+2014-08-15 15:41:20,805 INFO  plugin.PluginRepository - 	Nutch Content Parser (org.apache.nutch.parse.Parser)
+2014-08-15 15:41:20,805 INFO  plugin.PluginRepository - 	Nutch Scoring (org.apache.nutch.scoring.ScoringFilter)
+2014-08-15 15:41:20,805 INFO  plugin.PluginRepository - 	Ontology Model Loader (org.apache.nutch.ontology.Ontology)
+2014-08-15 15:41:20,808 INFO  indexer.IndexingFilters - Adding org.apache.nutch.indexer.basic.BasicIndexingFilter
+2014-08-15 15:41:20,810 INFO  indexer.IndexingFilters - Adding org.apache.nutch.indexer.anchor.AnchorIndexingFilter
+2014-08-15 15:41:20,962 INFO  plugin.PluginRepository - Plugins: looking in: C:\Users\lenovo\Workspaces\MyEclipse 8.6\NutchTest\.\plugins
+2014-08-15 15:41:21,053 INFO  plugin.PluginRepository - Plugin Auto-activation mode: [true]
+2014-08-15 15:41:21,053 INFO  plugin.PluginRepository - Registered Plugins:
+2014-08-15 15:41:21,053 INFO  plugin.PluginRepository - 	the nutch core extension points (nutch-extensionpoints)
+2014-08-15 15:41:21,053 INFO  plugin.PluginRepository - 	Basic Query Filter (query-basic)
+2014-08-15 15:41:21,053 INFO  plugin.PluginRepository - 	Basic URL Normalizer (urlnormalizer-basic)
+2014-08-15 15:41:21,053 INFO  plugin.PluginRepository - 	Html Parse Plug-in (parse-html)
+2014-08-15 15:41:21,053 INFO  plugin.PluginRepository - 	Basic Indexing Filter (index-basic)
+2014-08-15 15:41:21,053 INFO  plugin.PluginRepository - 	Site Query Filter (query-site)
+2014-08-15 15:41:21,053 INFO  plugin.PluginRepository - 	Basic Summarizer Plug-in (summary-basic)
+2014-08-15 15:41:21,053 INFO  plugin.PluginRepository - 	HTTP Framework (lib-http)
+2014-08-15 15:41:21,053 INFO  plugin.PluginRepository - 	Text Parse Plug-in (parse-text)
+2014-08-15 15:41:21,053 INFO  plugin.PluginRepository - 	Pass-through URL Normalizer (urlnormalizer-pass)
+2014-08-15 15:41:21,053 INFO  plugin.PluginRepository - 	Regex URL Filter (urlfilter-regex)
+2014-08-15 15:41:21,053 INFO  plugin.PluginRepository - 	Http Protocol Plug-in (protocol-http)
+2014-08-15 15:41:21,053 INFO  plugin.PluginRepository - 	XML Response Writer Plug-in (response-xml)
+2014-08-15 15:41:21,053 INFO  plugin.PluginRepository - 	Regex URL Normalizer (urlnormalizer-regex)
+2014-08-15 15:41:21,053 INFO  plugin.PluginRepository - 	OPIC Scoring Plug-in (scoring-opic)
+2014-08-15 15:41:21,053 INFO  plugin.PluginRepository - 	Tika Parser Plug-in (parse-tika)
+2014-08-15 15:41:21,053 INFO  plugin.PluginRepository - 	CyberNeko HTML Parser (lib-nekohtml)
+2014-08-15 15:41:21,053 INFO  plugin.PluginRepository - 	Anchor Indexing Filter (index-anchor)
+2014-08-15 15:41:21,053 INFO  plugin.PluginRepository - 	JavaScript Parser (parse-js)
+2014-08-15 15:41:21,053 INFO  plugin.PluginRepository - 	URL Query Filter (query-url)
+2014-08-15 15:41:21,053 INFO  plugin.PluginRepository - 	Regex URL Filter Framework (lib-regex-filter)
+2014-08-15 15:41:21,053 INFO  plugin.PluginRepository - 	JSON Response Writer Plug-in (response-json)
+2014-08-15 15:41:21,053 INFO  plugin.PluginRepository - Registered Extension-Points:
+2014-08-15 15:41:21,053 INFO  plugin.PluginRepository - 	Nutch Summarizer (org.apache.nutch.searcher.Summarizer)
+2014-08-15 15:41:21,053 INFO  plugin.PluginRepository - 	Nutch Protocol (org.apache.nutch.protocol.Protocol)
+2014-08-15 15:41:21,053 INFO  plugin.PluginRepository - 	Nutch Segment Merge Filter (org.apache.nutch.segment.SegmentMergeFilter)
+2014-08-15 15:41:21,054 INFO  plugin.PluginRepository - 	Nutch Analysis (org.apache.nutch.analysis.NutchAnalyzer)
+2014-08-15 15:41:21,054 INFO  plugin.PluginRepository - 	Nutch Field Filter (org.apache.nutch.indexer.field.FieldFilter)
+2014-08-15 15:41:21,054 INFO  plugin.PluginRepository - 	HTML Parse Filter (org.apache.nutch.parse.HtmlParseFilter)
+2014-08-15 15:41:21,054 INFO  plugin.PluginRepository - 	Nutch Query Filter (org.apache.nutch.searcher.QueryFilter)
+2014-08-15 15:41:21,054 INFO  plugin.PluginRepository - 	Nutch Search Results Response Writer (org.apache.nutch.searcher.response.ResponseWriter)
+2014-08-15 15:41:21,054 INFO  plugin.PluginRepository - 	Nutch URL Normalizer (org.apache.nutch.net.URLNormalizer)
+2014-08-15 15:41:21,054 INFO  plugin.PluginRepository - 	Nutch URL Filter (org.apache.nutch.net.URLFilter)
+2014-08-15 15:41:21,054 INFO  plugin.PluginRepository - 	Nutch Online Search Results Clustering Plugin (org.apache.nutch.clustering.OnlineClusterer)
+2014-08-15 15:41:21,054 INFO  plugin.PluginRepository - 	Nutch Indexing Filter (org.apache.nutch.indexer.IndexingFilter)
+2014-08-15 15:41:21,054 INFO  plugin.PluginRepository - 	Nutch Content Parser (org.apache.nutch.parse.Parser)
+2014-08-15 15:41:21,054 INFO  plugin.PluginRepository - 	Nutch Scoring (org.apache.nutch.scoring.ScoringFilter)
+2014-08-15 15:41:21,054 INFO  plugin.PluginRepository - 	Ontology Model Loader (org.apache.nutch.ontology.Ontology)
+2014-08-15 15:41:21,057 INFO  indexer.IndexingFilters - Adding org.apache.nutch.indexer.basic.BasicIndexingFilter
+2014-08-15 15:41:21,059 INFO  indexer.IndexingFilters - Adding org.apache.nutch.indexer.anchor.AnchorIndexingFilter
+2014-08-15 15:41:21,226 INFO  plugin.PluginRepository - Plugins: looking in: C:\Users\lenovo\Workspaces\MyEclipse 8.6\NutchTest\.\plugins
+2014-08-15 15:41:21,316 INFO  plugin.PluginRepository - Plugin Auto-activation mode: [true]
+2014-08-15 15:41:21,316 INFO  plugin.PluginRepository - Registered Plugins:
+2014-08-15 15:41:21,317 INFO  plugin.PluginRepository - 	the nutch core extension points (nutch-extensionpoints)
+2014-08-15 15:41:21,317 INFO  plugin.PluginRepository - 	Basic Query Filter (query-basic)
+2014-08-15 15:41:21,317 INFO  plugin.PluginRepository - 	Basic URL Normalizer (urlnormalizer-basic)
+2014-08-15 15:41:21,317 INFO  plugin.PluginRepository - 	Html Parse Plug-in (parse-html)
+2014-08-15 15:41:21,317 INFO  plugin.PluginRepository - 	Basic Indexing Filter (index-basic)
+2014-08-15 15:41:21,317 INFO  plugin.PluginRepository - 	Site Query Filter (query-site)
+2014-08-15 15:41:21,317 INFO  plugin.PluginRepository - 	Basic Summarizer Plug-in (summary-basic)
+2014-08-15 15:41:21,317 INFO  plugin.PluginRepository - 	HTTP Framework (lib-http)
+2014-08-15 15:41:21,317 INFO  plugin.PluginRepository - 	Text Parse Plug-in (parse-text)
+2014-08-15 15:41:21,317 INFO  plugin.PluginRepository - 	Pass-through URL Normalizer (urlnormalizer-pass)
+2014-08-15 15:41:21,317 INFO  plugin.PluginRepository - 	Regex URL Filter (urlfilter-regex)
+2014-08-15 15:41:21,317 INFO  plugin.PluginRepository - 	Http Protocol Plug-in (protocol-http)
+2014-08-15 15:41:21,317 INFO  plugin.PluginRepository - 	XML Response Writer Plug-in (response-xml)
+2014-08-15 15:41:21,317 INFO  plugin.PluginRepository - 	Regex URL Normalizer (urlnormalizer-regex)
+2014-08-15 15:41:21,317 INFO  plugin.PluginRepository - 	OPIC Scoring Plug-in (scoring-opic)
+2014-08-15 15:41:21,317 INFO  plugin.PluginRepository - 	Tika Parser Plug-in (parse-tika)
+2014-08-15 15:41:21,317 INFO  plugin.PluginRepository - 	CyberNeko HTML Parser (lib-nekohtml)
+2014-08-15 15:41:21,317 INFO  plugin.PluginRepository - 	Anchor Indexing Filter (index-anchor)
+2014-08-15 15:41:21,317 INFO  plugin.PluginRepository - 	JavaScript Parser (parse-js)
+2014-08-15 15:41:21,317 INFO  plugin.PluginRepository - 	URL Query Filter (query-url)
+2014-08-15 15:41:21,317 INFO  plugin.PluginRepository - 	Regex URL Filter Framework (lib-regex-filter)
+2014-08-15 15:41:21,317 INFO  plugin.PluginRepository - 	JSON Response Writer Plug-in (response-json)
+2014-08-15 15:41:21,317 INFO  plugin.PluginRepository - Registered Extension-Points:
+2014-08-15 15:41:21,317 INFO  plugin.PluginRepository - 	Nutch Summarizer (org.apache.nutch.searcher.Summarizer)
+2014-08-15 15:41:21,317 INFO  plugin.PluginRepository - 	Nutch Protocol (org.apache.nutch.protocol.Protocol)
+2014-08-15 15:41:21,317 INFO  plugin.PluginRepository - 	Nutch Segment Merge Filter (org.apache.nutch.segment.SegmentMergeFilter)
+2014-08-15 15:41:21,317 INFO  plugin.PluginRepository - 	Nutch Analysis (org.apache.nutch.analysis.NutchAnalyzer)
+2014-08-15 15:41:21,317 INFO  plugin.PluginRepository - 	Nutch Field Filter (org.apache.nutch.indexer.field.FieldFilter)
+2014-08-15 15:41:21,317 INFO  plugin.PluginRepository - 	HTML Parse Filter (org.apache.nutch.parse.HtmlParseFilter)
+2014-08-15 15:41:21,317 INFO  plugin.PluginRepository - 	Nutch Query Filter (org.apache.nutch.searcher.QueryFilter)
+2014-08-15 15:41:21,317 INFO  plugin.PluginRepository - 	Nutch Search Results Response Writer (org.apache.nutch.searcher.response.ResponseWriter)
+2014-08-15 15:41:21,317 INFO  plugin.PluginRepository - 	Nutch URL Normalizer (org.apache.nutch.net.URLNormalizer)
+2014-08-15 15:41:21,317 INFO  plugin.PluginRepository - 	Nutch URL Filter (org.apache.nutch.net.URLFilter)
+2014-08-15 15:41:21,317 INFO  plugin.PluginRepository - 	Nutch Online Search Results Clustering Plugin (org.apache.nutch.clustering.OnlineClusterer)
+2014-08-15 15:41:21,317 INFO  plugin.PluginRepository - 	Nutch Indexing Filter (org.apache.nutch.indexer.IndexingFilter)
+2014-08-15 15:41:21,317 INFO  plugin.PluginRepository - 	Nutch Content Parser (org.apache.nutch.parse.Parser)
+2014-08-15 15:41:21,317 INFO  plugin.PluginRepository - 	Nutch Scoring (org.apache.nutch.scoring.ScoringFilter)
+2014-08-15 15:41:21,317 INFO  plugin.PluginRepository - 	Ontology Model Loader (org.apache.nutch.ontology.Ontology)
+2014-08-15 15:41:21,320 INFO  indexer.IndexingFilters - Adding org.apache.nutch.indexer.basic.BasicIndexingFilter
+2014-08-15 15:41:21,322 INFO  indexer.IndexingFilters - Adding org.apache.nutch.indexer.anchor.AnchorIndexingFilter
+2014-08-15 15:41:21,477 INFO  plugin.PluginRepository - Plugins: looking in: C:\Users\lenovo\Workspaces\MyEclipse 8.6\NutchTest\.\plugins
+2014-08-15 15:41:21,569 INFO  plugin.PluginRepository - Plugin Auto-activation mode: [true]
+2014-08-15 15:41:21,569 INFO  plugin.PluginRepository - Registered Plugins:
+2014-08-15 15:41:21,569 INFO  plugin.PluginRepository - 	the nutch core extension points (nutch-extensionpoints)
+2014-08-15 15:41:21,569 INFO  plugin.PluginRepository - 	Basic Query Filter (query-basic)
+2014-08-15 15:41:21,569 INFO  plugin.PluginRepository - 	Basic URL Normalizer (urlnormalizer-basic)
+2014-08-15 15:41:21,569 INFO  plugin.PluginRepository - 	Html Parse Plug-in (parse-html)
+2014-08-15 15:41:21,569 INFO  plugin.PluginRepository - 	Basic Indexing Filter (index-basic)
+2014-08-15 15:41:21,569 INFO  plugin.PluginRepository - 	Site Query Filter (query-site)
+2014-08-15 15:41:21,569 INFO  plugin.PluginRepository - 	Basic Summarizer Plug-in (summary-basic)
+2014-08-15 15:41:21,569 INFO  plugin.PluginRepository - 	HTTP Framework (lib-http)
+2014-08-15 15:41:21,569 INFO  plugin.PluginRepository - 	Text Parse Plug-in (parse-text)
+2014-08-15 15:41:21,569 INFO  plugin.PluginRepository - 	Pass-through URL Normalizer (urlnormalizer-pass)
+2014-08-15 15:41:21,569 INFO  plugin.PluginRepository - 	Regex URL Filter (urlfilter-regex)
+2014-08-15 15:41:21,569 INFO  plugin.PluginRepository - 	Http Protocol Plug-in (protocol-http)
+2014-08-15 15:41:21,569 INFO  plugin.PluginRepository - 	XML Response Writer Plug-in (response-xml)
+2014-08-15 15:41:21,569 INFO  plugin.PluginRepository - 	Regex URL Normalizer (urlnormalizer-regex)
+2014-08-15 15:41:21,569 INFO  plugin.PluginRepository - 	OPIC Scoring Plug-in (scoring-opic)
+2014-08-15 15:41:21,569 INFO  plugin.PluginRepository - 	Tika Parser Plug-in (parse-tika)
+2014-08-15 15:41:21,569 INFO  plugin.PluginRepository - 	CyberNeko HTML Parser (lib-nekohtml)
+2014-08-15 15:41:21,569 INFO  plugin.PluginRepository - 	Anchor Indexing Filter (index-anchor)
+2014-08-15 15:41:21,569 INFO  plugin.PluginRepository - 	JavaScript Parser (parse-js)
+2014-08-15 15:41:21,569 INFO  plugin.PluginRepository - 	URL Query Filter (query-url)
+2014-08-15 15:41:21,569 INFO  plugin.PluginRepository - 	Regex URL Filter Framework (lib-regex-filter)
+2014-08-15 15:41:21,569 INFO  plugin.PluginRepository - 	JSON Response Writer Plug-in (response-json)
+2014-08-15 15:41:21,569 INFO  plugin.PluginRepository - Registered Extension-Points:
+2014-08-15 15:41:21,569 INFO  plugin.PluginRepository - 	Nutch Summarizer (org.apache.nutch.searcher.Summarizer)
+2014-08-15 15:41:21,569 INFO  plugin.PluginRepository - 	Nutch Protocol (org.apache.nutch.protocol.Protocol)
+2014-08-15 15:41:21,569 INFO  plugin.PluginRepository - 	Nutch Segment Merge Filter (org.apache.nutch.segment.SegmentMergeFilter)
+2014-08-15 15:41:21,569 INFO  plugin.PluginRepository - 	Nutch Analysis (org.apache.nutch.analysis.NutchAnalyzer)
+2014-08-15 15:41:21,569 INFO  plugin.PluginRepository - 	Nutch Field Filter (org.apache.nutch.indexer.field.FieldFilter)
+2014-08-15 15:41:21,569 INFO  plugin.PluginRepository - 	HTML Parse Filter (org.apache.nutch.parse.HtmlParseFilter)
+2014-08-15 15:41:21,569 INFO  plugin.PluginRepository - 	Nutch Query Filter (org.apache.nutch.searcher.QueryFilter)
+2014-08-15 15:41:21,569 INFO  plugin.PluginRepository - 	Nutch Search Results Response Writer (org.apache.nutch.searcher.response.ResponseWriter)
+2014-08-15 15:41:21,569 INFO  plugin.PluginRepository - 	Nutch URL Normalizer (org.apache.nutch.net.URLNormalizer)
+2014-08-15 15:41:21,569 INFO  plugin.PluginRepository - 	Nutch URL Filter (org.apache.nutch.net.URLFilter)
+2014-08-15 15:41:21,570 INFO  plugin.PluginRepository - 	Nutch Online Search Results Clustering Plugin (org.apache.nutch.clustering.OnlineClusterer)
+2014-08-15 15:41:21,570 INFO  plugin.PluginRepository - 	Nutch Indexing Filter (org.apache.nutch.indexer.IndexingFilter)
+2014-08-15 15:41:21,570 INFO  plugin.PluginRepository - 	Nutch Content Parser (org.apache.nutch.parse.Parser)
+2014-08-15 15:41:21,570 INFO  plugin.PluginRepository - 	Nutch Scoring (org.apache.nutch.scoring.ScoringFilter)
+2014-08-15 15:41:21,570 INFO  plugin.PluginRepository - 	Ontology Model Loader (org.apache.nutch.ontology.Ontology)
+2014-08-15 15:41:21,572 INFO  indexer.IndexingFilters - Adding org.apache.nutch.indexer.basic.BasicIndexingFilter
+2014-08-15 15:41:21,575 INFO  indexer.IndexingFilters - Adding org.apache.nutch.indexer.anchor.AnchorIndexingFilter
+2014-08-15 15:41:21,739 INFO  plugin.PluginRepository - Plugins: looking in: C:\Users\lenovo\Workspaces\MyEclipse 8.6\NutchTest\.\plugins
+2014-08-15 15:41:21,835 INFO  plugin.PluginRepository - Plugin Auto-activation mode: [true]
+2014-08-15 15:41:21,835 INFO  plugin.PluginRepository - Registered Plugins:
+2014-08-15 15:41:21,835 INFO  plugin.PluginRepository - 	the nutch core extension points (nutch-extensionpoints)
+2014-08-15 15:41:21,835 INFO  plugin.PluginRepository - 	Basic Query Filter (query-basic)
+2014-08-15 15:41:21,835 INFO  plugin.PluginRepository - 	Basic URL Normalizer (urlnormalizer-basic)
+2014-08-15 15:41:21,835 INFO  plugin.PluginRepository - 	Html Parse Plug-in (parse-html)
+2014-08-15 15:41:21,835 INFO  plugin.PluginRepository - 	Basic Indexing Filter (index-basic)
+2014-08-15 15:41:21,835 INFO  plugin.PluginRepository - 	Site Query Filter (query-site)
+2014-08-15 15:41:21,835 INFO  plugin.PluginRepository - 	Basic Summarizer Plug-in (summary-basic)
+2014-08-15 15:41:21,835 INFO  plugin.PluginRepository - 	HTTP Framework (lib-http)
+2014-08-15 15:41:21,835 INFO  plugin.PluginRepository - 	Text Parse Plug-in (parse-text)
+2014-08-15 15:41:21,835 INFO  plugin.PluginRepository - 	Pass-through URL Normalizer (urlnormalizer-pass)
+2014-08-15 15:41:21,835 INFO  plugin.PluginRepository - 	Regex URL Filter (urlfilter-regex)
+2014-08-15 15:41:21,835 INFO  plugin.PluginRepository - 	Http Protocol Plug-in (protocol-http)
+2014-08-15 15:41:21,835 INFO  plugin.PluginRepository - 	XML Response Writer Plug-in (response-xml)
+2014-08-15 15:41:21,835 INFO  plugin.PluginRepository - 	Regex URL Normalizer (urlnormalizer-regex)
+2014-08-15 15:41:21,835 INFO  plugin.PluginRepository - 	OPIC Scoring Plug-in (scoring-opic)
+2014-08-15 15:41:21,835 INFO  plugin.PluginRepository - 	Tika Parser Plug-in (parse-tika)
+2014-08-15 15:41:21,835 INFO  plugin.PluginRepository - 	CyberNeko HTML Parser (lib-nekohtml)
+2014-08-15 15:41:21,835 INFO  plugin.PluginRepository - 	Anchor Indexing Filter (index-anchor)
+2014-08-15 15:41:21,835 INFO  plugin.PluginRepository - 	JavaScript Parser (parse-js)
+2014-08-15 15:41:21,835 INFO  plugin.PluginRepository - 	URL Query Filter (query-url)
+2014-08-15 15:41:21,835 INFO  plugin.PluginRepository - 	Regex URL Filter Framework (lib-regex-filter)
+2014-08-15 15:41:21,835 INFO  plugin.PluginRepository - 	JSON Response Writer Plug-in (response-json)
+2014-08-15 15:41:21,835 INFO  plugin.PluginRepository - Registered Extension-Points:
+2014-08-15 15:41:21,835 INFO  plugin.PluginRepository - 	Nutch Summarizer (org.apache.nutch.searcher.Summarizer)
+2014-08-15 15:41:21,835 INFO  plugin.PluginRepository - 	Nutch Protocol (org.apache.nutch.protocol.Protocol)
+2014-08-15 15:41:21,836 INFO  plugin.PluginRepository - 	Nutch Segment Merge Filter (org.apache.nutch.segment.SegmentMergeFilter)
+2014-08-15 15:41:21,836 INFO  plugin.PluginRepository - 	Nutch Analysis (org.apache.nutch.analysis.NutchAnalyzer)
+2014-08-15 15:41:21,836 INFO  plugin.PluginRepository - 	Nutch Field Filter (org.apache.nutch.indexer.field.FieldFilter)
+2014-08-15 15:41:21,836 INFO  plugin.PluginRepository - 	HTML Parse Filter (org.apache.nutch.parse.HtmlParseFilter)
+2014-08-15 15:41:21,836 INFO  plugin.PluginRepository - 	Nutch Query Filter (org.apache.nutch.searcher.QueryFilter)
+2014-08-15 15:41:21,836 INFO  plugin.PluginRepository - 	Nutch Search Results Response Writer (org.apache.nutch.searcher.response.ResponseWriter)
+2014-08-15 15:41:21,836 INFO  plugin.PluginRepository - 	Nutch URL Normalizer (org.apache.nutch.net.URLNormalizer)
+2014-08-15 15:41:21,836 INFO  plugin.PluginRepository - 	Nutch URL Filter (org.apache.nutch.net.URLFilter)
+2014-08-15 15:41:21,836 INFO  plugin.PluginRepository - 	Nutch Online Search Results Clustering Plugin (org.apache.nutch.clustering.OnlineClusterer)
+2014-08-15 15:41:21,836 INFO  plugin.PluginRepository - 	Nutch Indexing Filter (org.apache.nutch.indexer.IndexingFilter)
+2014-08-15 15:41:21,836 INFO  plugin.PluginRepository - 	Nutch Content Parser (org.apache.nutch.parse.Parser)
+2014-08-15 15:41:21,836 INFO  plugin.PluginRepository - 	Nutch Scoring (org.apache.nutch.scoring.ScoringFilter)
+2014-08-15 15:41:21,836 INFO  plugin.PluginRepository - 	Ontology Model Loader (org.apache.nutch.ontology.Ontology)
+2014-08-15 15:41:21,838 INFO  indexer.IndexingFilters - Adding org.apache.nutch.indexer.basic.BasicIndexingFilter
+2014-08-15 15:41:21,841 INFO  indexer.IndexingFilters - Adding org.apache.nutch.indexer.anchor.AnchorIndexingFilter
+2014-08-15 15:41:21,989 INFO  plugin.PluginRepository - Plugins: looking in: C:\Users\lenovo\Workspaces\MyEclipse 8.6\NutchTest\.\plugins
+2014-08-15 15:41:22,081 INFO  plugin.PluginRepository - Plugin Auto-activation mode: [true]
+2014-08-15 15:41:22,081 INFO  plugin.PluginRepository - Registered Plugins:
+2014-08-15 15:41:22,081 INFO  plugin.PluginRepository - 	the nutch core extension points (nutch-extensionpoints)
+2014-08-15 15:41:22,081 INFO  plugin.PluginRepository - 	Basic Query Filter (query-basic)
+2014-08-15 15:41:22,081 INFO  plugin.PluginRepository - 	Basic URL Normalizer (urlnormalizer-basic)
+2014-08-15 15:41:22,081 INFO  plugin.PluginRepository - 	Html Parse Plug-in (parse-html)
+2014-08-15 15:41:22,081 INFO  plugin.PluginRepository - 	Basic Indexing Filter (index-basic)
+2014-08-15 15:41:22,081 INFO  plugin.PluginRepository - 	Site Query Filter (query-site)
+2014-08-15 15:41:22,081 INFO  plugin.PluginRepository - 	Basic Summarizer Plug-in (summary-basic)
+2014-08-15 15:41:22,081 INFO  plugin.PluginRepository - 	HTTP Framework (lib-http)
+2014-08-15 15:41:22,081 INFO  plugin.PluginRepository - 	Text Parse Plug-in (parse-text)
+2014-08-15 15:41:22,081 INFO  plugin.PluginRepository - 	Pass-through URL Normalizer (urlnormalizer-pass)
+2014-08-15 15:41:22,081 INFO  plugin.PluginRepository - 	Regex URL Filter (urlfilter-regex)
+2014-08-15 15:41:22,081 INFO  plugin.PluginRepository - 	Http Protocol Plug-in (protocol-http)
+2014-08-15 15:41:22,081 INFO  plugin.PluginRepository - 	XML Response Writer Plug-in (response-xml)
+2014-08-15 15:41:22,081 INFO  plugin.PluginRepository - 	Regex URL Normalizer (urlnormalizer-regex)
+2014-08-15 15:41:22,081 INFO  plugin.PluginRepository - 	OPIC Scoring Plug-in (scoring-opic)
+2014-08-15 15:41:22,081 INFO  plugin.PluginRepository - 	Tika Parser Plug-in (parse-tika)
+2014-08-15 15:41:22,082 INFO  plugin.PluginRepository - 	CyberNeko HTML Parser (lib-nekohtml)
+2014-08-15 15:41:22,082 INFO  plugin.PluginRepository - 	Anchor Indexing Filter (index-anchor)
+2014-08-15 15:41:22,082 INFO  plugin.PluginRepository - 	JavaScript Parser (parse-js)
+2014-08-15 15:41:22,082 INFO  plugin.PluginRepository - 	URL Query Filter (query-url)
+2014-08-15 15:41:22,082 INFO  plugin.PluginRepository - 	Regex URL Filter Framework (lib-regex-filter)
+2014-08-15 15:41:22,082 INFO  plugin.PluginRepository - 	JSON Response Writer Plug-in (response-json)
+2014-08-15 15:41:22,082 INFO  plugin.PluginRepository - Registered Extension-Points:
+2014-08-15 15:41:22,082 INFO  plugin.PluginRepository - 	Nutch Summarizer (org.apache.nutch.searcher.Summarizer)
+2014-08-15 15:41:22,082 INFO  plugin.PluginRepository - 	Nutch Protocol (org.apache.nutch.protocol.Protocol)
+2014-08-15 15:41:22,082 INFO  plugin.PluginRepository - 	Nutch Segment Merge Filter (org.apache.nutch.segment.SegmentMergeFilter)
+2014-08-15 15:41:22,082 INFO  plugin.PluginRepository - 	Nutch Analysis (org.apache.nutch.analysis.NutchAnalyzer)
+2014-08-15 15:41:22,082 INFO  plugin.PluginRepository - 	Nutch Field Filter (org.apache.nutch.indexer.field.FieldFilter)
+2014-08-15 15:41:22,082 INFO  plugin.PluginRepository - 	HTML Parse Filter (org.apache.nutch.parse.HtmlParseFilter)
+2014-08-15 15:41:22,082 INFO  plugin.PluginRepository - 	Nutch Query Filter (org.apache.nutch.searcher.QueryFilter)
+2014-08-15 15:41:22,082 INFO  plugin.PluginRepository - 	Nutch Search Results Response Writer (org.apache.nutch.searcher.response.ResponseWriter)
+2014-08-15 15:41:22,082 INFO  plugin.PluginRepository - 	Nutch URL Normalizer (org.apache.nutch.net.URLNormalizer)
+2014-08-15 15:41:22,082 INFO  plugin.PluginRepository - 	Nutch URL Filter (org.apache.nutch.net.URLFilter)
+2014-08-15 15:41:22,082 INFO  plugin.PluginRepository - 	Nutch Online Search Results Clustering Plugin (org.apache.nutch.clustering.OnlineClusterer)
+2014-08-15 15:41:22,082 INFO  plugin.PluginRepository - 	Nutch Indexing Filter (org.apache.nutch.indexer.IndexingFilter)
+2014-08-15 15:41:22,082 INFO  plugin.PluginRepository - 	Nutch Content Parser (org.apache.nutch.parse.Parser)
+2014-08-15 15:41:22,082 INFO  plugin.PluginRepository - 	Nutch Scoring (org.apache.nutch.scoring.ScoringFilter)
+2014-08-15 15:41:22,082 INFO  plugin.PluginRepository - 	Ontology Model Loader (org.apache.nutch.ontology.Ontology)
+2014-08-15 15:41:22,085 INFO  indexer.IndexingFilters - Adding org.apache.nutch.indexer.basic.BasicIndexingFilter
+2014-08-15 15:41:22,087 INFO  indexer.IndexingFilters - Adding org.apache.nutch.indexer.anchor.AnchorIndexingFilter
+2014-08-15 15:41:22,229 INFO  plugin.PluginRepository - Plugins: looking in: C:\Users\lenovo\Workspaces\MyEclipse 8.6\NutchTest\.\plugins
+2014-08-15 15:41:22,318 INFO  plugin.PluginRepository - Plugin Auto-activation mode: [true]
+2014-08-15 15:41:22,318 INFO  plugin.PluginRepository - Registered Plugins:
+2014-08-15 15:41:22,318 INFO  plugin.PluginRepository - 	the nutch core extension points (nutch-extensionpoints)
+2014-08-15 15:41:22,318 INFO  plugin.PluginRepository - 	Basic Query Filter (query-basic)
+2014-08-15 15:41:22,318 INFO  plugin.PluginRepository - 	Basic URL Normalizer (urlnormalizer-basic)
+2014-08-15 15:41:22,318 INFO  plugin.PluginRepository - 	Html Parse Plug-in (parse-html)
+2014-08-15 15:41:22,318 INFO  plugin.PluginRepository - 	Basic Indexing Filter (index-basic)
+2014-08-15 15:41:22,318 INFO  plugin.PluginRepository - 	Site Query Filter (query-site)
+2014-08-15 15:41:22,318 INFO  plugin.PluginRepository - 	Basic Summarizer Plug-in (summary-basic)
+2014-08-15 15:41:22,318 INFO  plugin.PluginRepository - 	HTTP Framework (lib-http)
+2014-08-15 15:41:22,318 INFO  plugin.PluginRepository - 	Text Parse Plug-in (parse-text)
+2014-08-15 15:41:22,318 INFO  plugin.PluginRepository - 	Pass-through URL Normalizer (urlnormalizer-pass)
+2014-08-15 15:41:22,318 INFO  plugin.PluginRepository - 	Regex URL Filter (urlfilter-regex)
+2014-08-15 15:41:22,318 INFO  plugin.PluginRepository - 	Http Protocol Plug-in (protocol-http)
+2014-08-15 15:41:22,318 INFO  plugin.PluginRepository - 	XML Response Writer Plug-in (response-xml)
+2014-08-15 15:41:22,318 INFO  plugin.PluginRepository - 	Regex URL Normalizer (urlnormalizer-regex)
+2014-08-15 15:41:22,318 INFO  plugin.PluginRepository - 	OPIC Scoring Plug-in (scoring-opic)
+2014-08-15 15:41:22,318 INFO  plugin.PluginRepository - 	Tika Parser Plug-in (parse-tika)
+2014-08-15 15:41:22,318 INFO  plugin.PluginRepository - 	CyberNeko HTML Parser (lib-nekohtml)
+2014-08-15 15:41:22,318 INFO  plugin.PluginRepository - 	Anchor Indexing Filter (index-anchor)
+2014-08-15 15:41:22,318 INFO  plugin.PluginRepository - 	JavaScript Parser (parse-js)
+2014-08-15 15:41:22,318 INFO  plugin.PluginRepository - 	URL Query Filter (query-url)
+2014-08-15 15:41:22,318 INFO  plugin.PluginRepository - 	Regex URL Filter Framework (lib-regex-filter)
+2014-08-15 15:41:22,319 INFO  plugin.PluginRepository - 	JSON Response Writer Plug-in (response-json)
+2014-08-15 15:41:22,319 INFO  plugin.PluginRepository - Registered Extension-Points:
+2014-08-15 15:41:22,319 INFO  plugin.PluginRepository - 	Nutch Summarizer (org.apache.nutch.searcher.Summarizer)
+2014-08-15 15:41:22,319 INFO  plugin.PluginRepository - 	Nutch Protocol (org.apache.nutch.protocol.Protocol)
+2014-08-15 15:41:22,319 INFO  plugin.PluginRepository - 	Nutch Segment Merge Filter (org.apache.nutch.segment.SegmentMergeFilter)
+2014-08-15 15:41:22,319 INFO  plugin.PluginRepository - 	Nutch Analysis (org.apache.nutch.analysis.NutchAnalyzer)
+2014-08-15 15:41:22,319 INFO  plugin.PluginRepository - 	Nutch Field Filter (org.apache.nutch.indexer.field.FieldFilter)
+2014-08-15 15:41:22,319 INFO  plugin.PluginRepository - 	HTML Parse Filter (org.apache.nutch.parse.HtmlParseFilter)
+2014-08-15 15:41:22,319 INFO  plugin.PluginRepository - 	Nutch Query Filter (org.apache.nutch.searcher.QueryFilter)
+2014-08-15 15:41:22,319 INFO  plugin.PluginRepository - 	Nutch Search Results Response Writer (org.apache.nutch.searcher.response.ResponseWriter)
+2014-08-15 15:41:22,319 INFO  plugin.PluginRepository - 	Nutch URL Normalizer (org.apache.nutch.net.URLNormalizer)
+2014-08-15 15:41:22,319 INFO  plugin.PluginRepository - 	Nutch URL Filter (org.apache.nutch.net.URLFilter)
+2014-08-15 15:41:22,319 INFO  plugin.PluginRepository - 	Nutch Online Search Results Clustering Plugin (org.apache.nutch.clustering.OnlineClusterer)
+2014-08-15 15:41:22,319 INFO  plugin.PluginRepository - 	Nutch Indexing Filter (org.apache.nutch.indexer.IndexingFilter)
+2014-08-15 15:41:22,319 INFO  plugin.PluginRepository - 	Nutch Content Parser (org.apache.nutch.parse.Parser)
+2014-08-15 15:41:22,319 INFO  plugin.PluginRepository - 	Nutch Scoring (org.apache.nutch.scoring.ScoringFilter)
+2014-08-15 15:41:22,319 INFO  plugin.PluginRepository - 	Ontology Model Loader (org.apache.nutch.ontology.Ontology)
+2014-08-15 15:41:22,321 INFO  indexer.IndexingFilters - Adding org.apache.nutch.indexer.basic.BasicIndexingFilter
+2014-08-15 15:41:22,324 INFO  indexer.IndexingFilters - Adding org.apache.nutch.indexer.anchor.AnchorIndexingFilter
+2014-08-15 15:41:22,481 INFO  plugin.PluginRepository - Plugins: looking in: C:\Users\lenovo\Workspaces\MyEclipse 8.6\NutchTest\.\plugins
+2014-08-15 15:41:22,570 INFO  plugin.PluginRepository - Plugin Auto-activation mode: [true]
+2014-08-15 15:41:22,570 INFO  plugin.PluginRepository - Registered Plugins:
+2014-08-15 15:41:22,570 INFO  plugin.PluginRepository - 	the nutch core extension points (nutch-extensionpoints)
+2014-08-15 15:41:22,570 INFO  plugin.PluginRepository - 	Basic Query Filter (query-basic)
+2014-08-15 15:41:22,570 INFO  plugin.PluginRepository - 	Basic URL Normalizer (urlnormalizer-basic)
+2014-08-15 15:41:22,570 INFO  plugin.PluginRepository - 	Html Parse Plug-in (parse-html)
+2014-08-15 15:41:22,570 INFO  plugin.PluginRepository - 	Basic Indexing Filter (index-basic)
+2014-08-15 15:41:22,570 INFO  plugin.PluginRepository - 	Site Query Filter (query-site)
+2014-08-15 15:41:22,570 INFO  plugin.PluginRepository - 	Basic Summarizer Plug-in (summary-basic)
+2014-08-15 15:41:22,570 INFO  plugin.PluginRepository - 	HTTP Framework (lib-http)
+2014-08-15 15:41:22,570 INFO  plugin.PluginRepository - 	Text Parse Plug-in (parse-text)
+2014-08-15 15:41:22,570 INFO  plugin.PluginRepository - 	Pass-through URL Normalizer (urlnormalizer-pass)
+2014-08-15 15:41:22,570 INFO  plugin.PluginRepository - 	Regex URL Filter (urlfilter-regex)
+2014-08-15 15:41:22,570 INFO  plugin.PluginRepository - 	Http Protocol Plug-in (protocol-http)
+2014-08-15 15:41:22,570 INFO  plugin.PluginRepository - 	XML Response Writer Plug-in (response-xml)
+2014-08-15 15:41:22,570 INFO  plugin.PluginRepository - 	Regex URL Normalizer (urlnormalizer-regex)
+2014-08-15 15:41:22,570 INFO  plugin.PluginRepository - 	OPIC Scoring Plug-in (scoring-opic)
+2014-08-15 15:41:22,570 INFO  plugin.PluginRepository - 	Tika Parser Plug-in (parse-tika)
+2014-08-15 15:41:22,570 INFO  plugin.PluginRepository - 	CyberNeko HTML Parser (lib-nekohtml)
+2014-08-15 15:41:22,570 INFO  plugin.PluginRepository - 	Anchor Indexing Filter (index-anchor)
+2014-08-15 15:41:22,570 INFO  plugin.PluginRepository - 	JavaScript Parser (parse-js)
+2014-08-15 15:41:22,570 INFO  plugin.PluginRepository - 	URL Query Filter (query-url)
+2014-08-15 15:41:22,570 INFO  plugin.PluginRepository - 	Regex URL Filter Framework (lib-regex-filter)
+2014-08-15 15:41:22,570 INFO  plugin.PluginRepository - 	JSON Response Writer Plug-in (response-json)
+2014-08-15 15:41:22,571 INFO  plugin.PluginRepository - Registered Extension-Points:
+2014-08-15 15:41:22,571 INFO  plugin.PluginRepository - 	Nutch Summarizer (org.apache.nutch.searcher.Summarizer)
+2014-08-15 15:41:22,571 INFO  plugin.PluginRepository - 	Nutch Protocol (org.apache.nutch.protocol.Protocol)
+2014-08-15 15:41:22,571 INFO  plugin.PluginRepository - 	Nutch Segment Merge Filter (org.apache.nutch.segment.SegmentMergeFilter)
+2014-08-15 15:41:22,571 INFO  plugin.PluginRepository - 	Nutch Analysis (org.apache.nutch.analysis.NutchAnalyzer)
+2014-08-15 15:41:22,571 INFO  plugin.PluginRepository - 	Nutch Field Filter (org.apache.nutch.indexer.field.FieldFilter)
+2014-08-15 15:41:22,571 INFO  plugin.PluginRepository - 	HTML Parse Filter (org.apache.nutch.parse.HtmlParseFilter)
+2014-08-15 15:41:22,571 INFO  plugin.PluginRepository - 	Nutch Query Filter (org.apache.nutch.searcher.QueryFilter)
+2014-08-15 15:41:22,571 INFO  plugin.PluginRepository - 	Nutch Search Results Response Writer (org.apache.nutch.searcher.response.ResponseWriter)
+2014-08-15 15:41:22,571 INFO  plugin.PluginRepository - 	Nutch URL Normalizer (org.apache.nutch.net.URLNormalizer)
+2014-08-15 15:41:22,571 INFO  plugin.PluginRepository - 	Nutch URL Filter (org.apache.nutch.net.URLFilter)
+2014-08-15 15:41:22,571 INFO  plugin.PluginRepository - 	Nutch Online Search Results Clustering Plugin (org.apache.nutch.clustering.OnlineClusterer)
+2014-08-15 15:41:22,571 INFO  plugin.PluginRepository - 	Nutch Indexing Filter (org.apache.nutch.indexer.IndexingFilter)
+2014-08-15 15:41:22,571 INFO  plugin.PluginRepository - 	Nutch Content Parser (org.apache.nutch.parse.Parser)
+2014-08-15 15:41:22,571 INFO  plugin.PluginRepository - 	Nutch Scoring (org.apache.nutch.scoring.ScoringFilter)
+2014-08-15 15:41:22,571 INFO  plugin.PluginRepository - 	Ontology Model Loader (org.apache.nutch.ontology.Ontology)
+2014-08-15 15:41:22,574 INFO  indexer.IndexingFilters - Adding org.apache.nutch.indexer.basic.BasicIndexingFilter
+2014-08-15 15:41:22,576 INFO  indexer.IndexingFilters - Adding org.apache.nutch.indexer.anchor.AnchorIndexingFilter
+2014-08-15 15:41:22,728 INFO  plugin.PluginRepository - Plugins: looking in: C:\Users\lenovo\Workspaces\MyEclipse 8.6\NutchTest\.\plugins
+2014-08-15 15:41:22,816 INFO  plugin.PluginRepository - Plugin Auto-activation mode: [true]
+2014-08-15 15:41:22,816 INFO  plugin.PluginRepository - Registered Plugins:
+2014-08-15 15:41:22,816 INFO  plugin.PluginRepository - 	the nutch core extension points (nutch-extensionpoints)
+2014-08-15 15:41:22,816 INFO  plugin.PluginRepository - 	Basic Query Filter (query-basic)
+2014-08-15 15:41:22,816 INFO  plugin.PluginRepository - 	Basic URL Normalizer (urlnormalizer-basic)
+2014-08-15 15:41:22,816 INFO  plugin.PluginRepository - 	Html Parse Plug-in (parse-html)
+2014-08-15 15:41:22,816 INFO  plugin.PluginRepository - 	Basic Indexing Filter (index-basic)
+2014-08-15 15:41:22,816 INFO  plugin.PluginRepository - 	Site Query Filter (query-site)
+2014-08-15 15:41:22,816 INFO  plugin.PluginRepository - 	Basic Summarizer Plug-in (summary-basic)
+2014-08-15 15:41:22,816 INFO  plugin.PluginRepository - 	HTTP Framework (lib-http)
+2014-08-15 15:41:22,816 INFO  plugin.PluginRepository - 	Text Parse Plug-in (parse-text)
+2014-08-15 15:41:22,817 INFO  plugin.PluginRepository - 	Pass-through URL Normalizer (urlnormalizer-pass)
+2014-08-15 15:41:22,817 INFO  plugin.PluginRepository - 	Regex URL Filter (urlfilter-regex)
+2014-08-15 15:41:22,817 INFO  plugin.PluginRepository - 	Http Protocol Plug-in (protocol-http)
+2014-08-15 15:41:22,817 INFO  plugin.PluginRepository - 	XML Response Writer Plug-in (response-xml)
+2014-08-15 15:41:22,817 INFO  plugin.PluginRepository - 	Regex URL Normalizer (urlnormalizer-regex)
+2014-08-15 15:41:22,817 INFO  plugin.PluginRepository - 	OPIC Scoring Plug-in (scoring-opic)
+2014-08-15 15:41:22,817 INFO  plugin.PluginRepository - 	Tika Parser Plug-in (parse-tika)
+2014-08-15 15:41:22,817 INFO  plugin.PluginRepository - 	CyberNeko HTML Parser (lib-nekohtml)
+2014-08-15 15:41:22,817 INFO  plugin.PluginRepository - 	Anchor Indexing Filter (index-anchor)
+2014-08-15 15:41:22,817 INFO  plugin.PluginRepository - 	JavaScript Parser (parse-js)
+2014-08-15 15:41:22,817 INFO  plugin.PluginRepository - 	URL Query Filter (query-url)
+2014-08-15 15:41:22,817 INFO  plugin.PluginRepository - 	Regex URL Filter Framework (lib-regex-filter)
+2014-08-15 15:41:22,817 INFO  plugin.PluginRepository - 	JSON Response Writer Plug-in (response-json)
+2014-08-15 15:41:22,817 INFO  plugin.PluginRepository - Registered Extension-Points:
+2014-08-15 15:41:22,817 INFO  plugin.PluginRepository - 	Nutch Summarizer (org.apache.nutch.searcher.Summarizer)
+2014-08-15 15:41:22,817 INFO  plugin.PluginRepository - 	Nutch Protocol (org.apache.nutch.protocol.Protocol)
+2014-08-15 15:41:22,817 INFO  plugin.PluginRepository - 	Nutch Segment Merge Filter (org.apache.nutch.segment.SegmentMergeFilter)
+2014-08-15 15:41:22,817 INFO  plugin.PluginRepository - 	Nutch Analysis (org.apache.nutch.analysis.NutchAnalyzer)
+2014-08-15 15:41:22,817 INFO  plugin.PluginRepository - 	Nutch Field Filter (org.apache.nutch.indexer.field.FieldFilter)
+2014-08-15 15:41:22,817 INFO  plugin.PluginRepository - 	HTML Parse Filter (org.apache.nutch.parse.HtmlParseFilter)
+2014-08-15 15:41:22,817 INFO  plugin.PluginRepository - 	Nutch Query Filter (org.apache.nutch.searcher.QueryFilter)
+2014-08-15 15:41:22,817 INFO  plugin.PluginRepository - 	Nutch Search Results Response Writer (org.apache.nutch.searcher.response.ResponseWriter)
+2014-08-15 15:41:22,817 INFO  plugin.PluginRepository - 	Nutch URL Normalizer (org.apache.nutch.net.URLNormalizer)
+2014-08-15 15:41:22,817 INFO  plugin.PluginRepository - 	Nutch URL Filter (org.apache.nutch.net.URLFilter)
+2014-08-15 15:41:22,817 INFO  plugin.PluginRepository - 	Nutch Online Search Results Clustering Plugin (org.apache.nutch.clustering.OnlineClusterer)
+2014-08-15 15:41:22,817 INFO  plugin.PluginRepository - 	Nutch Indexing Filter (org.apache.nutch.indexer.IndexingFilter)
+2014-08-15 15:41:22,817 INFO  plugin.PluginRepository - 	Nutch Content Parser (org.apache.nutch.parse.Parser)
+2014-08-15 15:41:22,817 INFO  plugin.PluginRepository - 	Nutch Scoring (org.apache.nutch.scoring.ScoringFilter)
+2014-08-15 15:41:22,817 INFO  plugin.PluginRepository - 	Ontology Model Loader (org.apache.nutch.ontology.Ontology)
+2014-08-15 15:41:22,820 INFO  indexer.IndexingFilters - Adding org.apache.nutch.indexer.basic.BasicIndexingFilter
+2014-08-15 15:41:22,822 INFO  indexer.IndexingFilters - Adding org.apache.nutch.indexer.anchor.AnchorIndexingFilter
+2014-08-15 15:41:23,127 INFO  plugin.PluginRepository - Plugins: looking in: C:\Users\lenovo\Workspaces\MyEclipse 8.6\NutchTest\.\plugins
+2014-08-15 15:41:23,215 INFO  plugin.PluginRepository - Plugin Auto-activation mode: [true]
+2014-08-15 15:41:23,224 INFO  plugin.PluginRepository - Registered Plugins:
+2014-08-15 15:41:23,224 INFO  plugin.PluginRepository - 	the nutch core extension points (nutch-extensionpoints)
+2014-08-15 15:41:23,224 INFO  plugin.PluginRepository - 	Basic Query Filter (query-basic)
+2014-08-15 15:41:23,224 INFO  plugin.PluginRepository - 	Basic URL Normalizer (urlnormalizer-basic)
+2014-08-15 15:41:23,224 INFO  plugin.PluginRepository - 	Html Parse Plug-in (parse-html)
+2014-08-15 15:41:23,224 INFO  plugin.PluginRepository - 	Basic Indexing Filter (index-basic)
+2014-08-15 15:41:23,224 INFO  plugin.PluginRepository - 	Site Query Filter (query-site)
+2014-08-15 15:41:23,224 INFO  plugin.PluginRepository - 	Basic Summarizer Plug-in (summary-basic)
+2014-08-15 15:41:23,224 INFO  plugin.PluginRepository - 	HTTP Framework (lib-http)
+2014-08-15 15:41:23,224 INFO  plugin.PluginRepository - 	Text Parse Plug-in (parse-text)
+2014-08-15 15:41:23,224 INFO  plugin.PluginRepository - 	Pass-through URL Normalizer (urlnormalizer-pass)
+2014-08-15 15:41:23,224 INFO  plugin.PluginRepository - 	Regex URL Filter (urlfilter-regex)
+2014-08-15 15:41:23,224 INFO  plugin.PluginRepository - 	Http Protocol Plug-in (protocol-http)
+2014-08-15 15:41:23,224 INFO  plugin.PluginRepository - 	XML Response Writer Plug-in (response-xml)
+2014-08-15 15:41:23,224 INFO  plugin.PluginRepository - 	Regex URL Normalizer (urlnormalizer-regex)
+2014-08-15 15:41:23,224 INFO  plugin.PluginRepository - 	OPIC Scoring Plug-in (scoring-opic)
+2014-08-15 15:41:23,224 INFO  plugin.PluginRepository - 	Tika Parser Plug-in (parse-tika)
+2014-08-15 15:41:23,224 INFO  plugin.PluginRepository - 	CyberNeko HTML Parser (lib-nekohtml)
+2014-08-15 15:41:23,224 INFO  plugin.PluginRepository - 	Anchor Indexing Filter (index-anchor)
+2014-08-15 15:41:23,224 INFO  plugin.PluginRepository - 	JavaScript Parser (parse-js)
+2014-08-15 15:41:23,224 INFO  plugin.PluginRepository - 	URL Query Filter (query-url)
+2014-08-15 15:41:23,224 INFO  plugin.PluginRepository - 	Regex URL Filter Framework (lib-regex-filter)
+2014-08-15 15:41:23,224 INFO  plugin.PluginRepository - 	JSON Response Writer Plug-in (response-json)
+2014-08-15 15:41:23,224 INFO  plugin.PluginRepository - Registered Extension-Points:
+2014-08-15 15:41:23,224 INFO  plugin.PluginRepository - 	Nutch Summarizer (org.apache.nutch.searcher.Summarizer)
+2014-08-15 15:41:23,224 INFO  plugin.PluginRepository - 	Nutch Protocol (org.apache.nutch.protocol.Protocol)
+2014-08-15 15:41:23,224 INFO  plugin.PluginRepository - 	Nutch Segment Merge Filter (org.apache.nutch.segment.SegmentMergeFilter)
+2014-08-15 15:41:23,224 INFO  plugin.PluginRepository - 	Nutch Analysis (org.apache.nutch.analysis.NutchAnalyzer)
+2014-08-15 15:41:23,224 INFO  plugin.PluginRepository - 	Nutch Field Filter (org.apache.nutch.indexer.field.FieldFilter)
+2014-08-15 15:41:23,224 INFO  plugin.PluginRepository - 	HTML Parse Filter (org.apache.nutch.parse.HtmlParseFilter)
+2014-08-15 15:41:23,224 INFO  plugin.PluginRepository - 	Nutch Query Filter (org.apache.nutch.searcher.QueryFilter)
+2014-08-15 15:41:23,224 INFO  plugin.PluginRepository - 	Nutch Search Results Response Writer (org.apache.nutch.searcher.response.ResponseWriter)
+2014-08-15 15:41:23,224 INFO  plugin.PluginRepository - 	Nutch URL Normalizer (org.apache.nutch.net.URLNormalizer)
+2014-08-15 15:41:23,224 INFO  plugin.PluginRepository - 	Nutch URL Filter (org.apache.nutch.net.URLFilter)
+2014-08-15 15:41:23,224 INFO  plugin.PluginRepository - 	Nutch Online Search Results Clustering Plugin (org.apache.nutch.clustering.OnlineClusterer)
+2014-08-15 15:41:23,224 INFO  plugin.PluginRepository - 	Nutch Indexing Filter (org.apache.nutch.indexer.IndexingFilter)
+2014-08-15 15:41:23,224 INFO  plugin.PluginRepository - 	Nutch Content Parser (org.apache.nutch.parse.Parser)
+2014-08-15 15:41:23,224 INFO  plugin.PluginRepository - 	Nutch Scoring (org.apache.nutch.scoring.ScoringFilter)
+2014-08-15 15:41:23,224 INFO  plugin.PluginRepository - 	Ontology Model Loader (org.apache.nutch.ontology.Ontology)
+2014-08-15 15:41:23,227 INFO  indexer.IndexingFilters - Adding org.apache.nutch.indexer.basic.BasicIndexingFilter
+2014-08-15 15:41:23,230 INFO  indexer.IndexingFilters - Adding org.apache.nutch.indexer.anchor.AnchorIndexingFilter
+2014-08-15 15:41:26,033 INFO  indexer.Indexer - Indexer: finished at 2014-08-15 15:41:26, elapsed: 00:00:08
+2014-08-15 15:41:26,066 INFO  indexer.DeleteDuplicates - Dedup: starting at 2014-08-15 15:41:26
+2014-08-15 15:41:26,066 INFO  indexer.DeleteDuplicates - Dedup: adding indexes in: crawl/indexes
+2014-08-15 15:41:26,175 WARN  mapred.JobClient - Use GenericOptionsParser for parsing the arguments. Applications should implement Tool for the same.
+2014-08-15 15:41:26,364 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2014-08-15 15:41:27,978 WARN  mapred.JobClient - Use GenericOptionsParser for parsing the arguments. Applications should implement Tool for the same.
+2014-08-15 15:41:28,138 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2014-08-15 15:41:29,611 WARN  mapred.JobClient - Use GenericOptionsParser for parsing the arguments. Applications should implement Tool for the same.
+2014-08-15 15:41:29,773 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2014-08-15 15:41:31,267 INFO  indexer.DeleteDuplicates - Dedup: finished at 2014-08-15 15:41:31, elapsed: 00:00:05
+2014-08-15 15:41:31,269 INFO  indexer.IndexMerger - IndexMerger: starting at 2014-08-15 15:41:31
+2014-08-15 15:41:31,269 INFO  indexer.IndexMerger - IndexMerger: merging indexes to: crawl/index
+2014-08-15 15:41:31,504 INFO  indexer.IndexMerger - Adding file:/C:/Users/lenovo/Workspaces/MyEclipse 8.6/NutchTest/crawl/indexes/part-00000
+2014-08-15 15:41:33,036 INFO  indexer.IndexMerger - IndexMerger: finished at 2014-08-15 15:41:33, elapsed: 00:00:01
+2014-08-15 15:41:33,036 INFO  crawl.Crawl - crawl finished: crawl
